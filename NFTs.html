@@ -21,35 +21,9 @@
     <body>
         <div class="myIframe"></div>
     </body>
-    <script>
-        window.onload = function(){
-            
-            //
-            const iframe0 =()=>{
-                return`<div class="iframe">
-                <div class="card">image1</div>
-                </div>`;
-            }
-            
-            //
-            const iframe1 =()=>{
-                return`<div class="iframe">
-                <div class="card">image2</div>
-                </div>`;
-            }
-            
-            //
-            const iframe2 =()=>{
-                return`<div class="iframe">
-                <div class="card">image3</div>
-                </div>`;
-            }
-            
-            const allFrames =()=>{
-              document.querySelector(".myIframe").innerHTML = ( iframe0 () + iframe1 () + iframe2() );
-            }
+    <script type="module">
+       import allFrames from "./nftComponents/allframes.js" 
             allFrames ();
-        }
         
     </script>
 </html>
