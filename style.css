@@ -1,0 +1,293 @@
+body {
+    background:#26292e;
+    color:azure;
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+/*darkmode*/
+.darkmode{
+    background:#6EC72D;
+    width:70px;
+    height:49px;
+    top:0;
+    right:0;
+    position:fixed ;
+    text-align:center;
+    padding:5px;
+    z-index:9999;
+}
+.darkmodeBtn{
+    background:#29262e;
+    padding:14px 28px 14px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:13px;
+    border-radius:15px;   
+}
+.anotherStyle{
+    padding:14px 28px 14px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:13px;
+    background:azure;
+    border-radius:15px;   
+}
+.roundToggle{
+    width:15px;
+    height:15px;
+    background:azure;
+    padding:3.5px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:5px;
+}
+.moveRound{
+    width:15px;
+    height:15px;
+    background:#29262e;
+    padding:4px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:28px;
+}
+.bodyColorChange{
+    background:azure;
+    color:#29262e;
+}
+
+/* nav */
+.navColorStay{
+color:#fff;
+    /* do this  to toggle nav txts to stay same colo */
+}
+.bar, .myName{
+    padding-left:30px;
+}
+.myName{
+    background:#26292e;
+    width:100vw;
+    padding-top:17px;
+    padding-bottom:23px;
+    margin:0;
+    top:0;
+    position:fixed;
+}
+.whiteTxt{
+    color:#fff;
+}
+nav{
+    width:100vw;
+    margin:0;
+    padding:0;    
+}
+nav ul{
+    width:100vw;
+    margin:0;
+    padding:0;
+    background:;
+    top:0;
+    position:fixed ;
+    z-index:999;
+    background:#26292e;
+}
+nav ul .menuList{
+    font-size:22px;
+    font-weight:bold;
+    float:left;
+    margin-left:26px;
+    padding:16.5px 12px 16px 12px;
+}
+.menuList:hover{
+        background:transparent;
+    }
+nav ul li{
+    display:inline-block ;
+     padding:20px 12px 20px 12px;
+    float:right;  
+}
+.menuList1{
+    margin-right:100px;
+}
+nav ul li:hover{
+        background:#6EC72D;
+    }
+    .homePage{
+    clear:both;
+    margin:0;
+    text-align:center;
+    width:100vw;
+    margin-top:70px;
+}
+.topContainer{
+    margin-bottom:20px;
+}
+.content1, .content2, .content3{
+    display:inline-block;
+    padding-top:;
+    height:50vh;
+} /*border to be remove*/
+.content3, .box3{
+    width:22.5vw; /* remove style */
+}
+.content1, .box1{
+    text-align:left;
+    width:31vw;
+}
+.content2, .box2{
+    width:36.5vw;
+}
+.content3 span{
+    width:120px;
+    padding:16px;
+    background:yellowgreen;
+    border-radius:30px;
+    font-weight:bold;
+}
+.content1 h1{
+    font-size:3.5rem;
+}
+
+.box1, .box2, .box3{
+    display:inline-block;
+}
+.fa{
+    padding:6px;
+}
+
+/* about page styling */
+.aboutPage{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+    display:none;
+}
+.aboutImage{
+width:100vw;
+background:#26292e; 
+margin:0px 0px 20px 0px; 
+padding:18px; 
+top:0; 
+color:#eee;
+height:100px; 
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+.article1, .article2, .aboutPage h3{
+    margin:10px 30px 10px 30px;
+    text-align:left;
+}
+.scrollDown1{
+    width:30px;
+    height:30px;
+    position:absolute;
+    background:azure;
+    border-radius:50%;
+}
+.backToTop{
+    width:30px;
+    height:30px;
+    position:absolute;
+    background:azure;
+    border-radius:50%;
+    right:0;
+    margin-right:30px;
+}
+/*space for↓*/
+/*social here*/
+
+/*others followed*/
+
+/*portfolio*/
+    
+@media(max-width:450px){
+body{
+    width:100vw;
+}
+.darkmode{
+    height:49px;
+}
+    .bar, .navigate{ 
+    display:block ;
+    top:0;
+    left:0;
+    position:fixed ;
+    margin-top:12px;
+    margin-left:30px;
+    color:azure;
+    font-size:22px;
+    font-weight:bold;
+    z-index:999;
+    }
+    .navigate:hover ul{
+        display:block;
+        width:65vw;
+        height:100vh;
+    }
+    nav ul{
+        display:none;
+        width:65vw;
+        height:100vh;
+        background:#6EC72D;
+        margin:0;
+        left:0;
+        position:fixed;
+    }
+    nav ul .menuList, .menuList:hover{
+        float:none;
+        background:red;
+    }
+    nav ul li{
+        display:block;
+        float:none ;
+        padding:20px 0px 20px 0px;
+        padding-left:30px;
+        font-size:16px;
+        font-weight:normal ;
+    }
+      nav ul li:hover{
+        margin:0;
+        background:#29262e;
+    }
+    .homePage{
+        position:fixed;
+    }
+    .content1{
+    height:25vh;
+    }
+    
+    .content1, .content2, .content3{
+    display:block;
+    width:95vw;
+    margin:10px;
+    border:none;
+}
+.content2{
+    display:none ;
+}
+.content3{
+height:60vh;
+background:-webkit-linear-gradient(top, #6EC72D, #26292e);
+background:-moz-linear-gradient(top, #6EC72D, #26292e);
+border-radius:30px 30px 0px 0px;
+}
+.content1 h1, .content1 p{
+    padding-left:15px;
+}
+.content3 h3{
+  padding-top:35px;
+}
+.box1, .box2, .box3{
+    display:none;
+}
+}
+
+
