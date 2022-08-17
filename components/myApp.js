@@ -1,3 +1,4 @@
+import header from "./header.js";
 const myApp=()=>{
     document.querySelector(".header").innerHTML = (header() );
     
