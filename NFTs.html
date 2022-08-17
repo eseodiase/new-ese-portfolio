@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NFTs</title>
+        <style>
+            body{
+                background:transparent;
+                margin:20px 30px 20px 30px;
+            }
+            .iframe{
+    background:green;
+    width:85vw;
+    height:30vh;
+    margin-top:14px;
+    margin-bottom:14px;
+    color:#ebffff;
+}
+        </style>
+    </head>
+    
+    <body>
+        <div class="myIframe"></div>
+    </body>
+    <script>
+        window.onload = function(){
+            
+            //
+            const iframe0 =()=>{
+                return`<div class="iframe">
+                <div class="card">image1</div>
+                </div>`;
+            }
+            
+            //
+            const iframe1 =()=>{
+                return`<div class="iframe">
+                <div class="card">image2</div>
+                </div>`;
+            }
+            
+            //
+            const iframe2 =()=>{
+                return`<div class="iframe">
+                <div class="card">image3</div>
+                </div>`;
+            }
+            
+            const allFrames =()=>{
+              document.querySelector(".myIframe").innerHTML = ( iframe0 () + iframe1 () + iframe2() );
+            }
+            allFrames ();
+        }
+        
+    </script>
+</html>
