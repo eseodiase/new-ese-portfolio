@@ -1,0 +1,305 @@
+body {
+    background: azure;
+    color:#050d2e;
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+font-family: 'Concert One', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Work Sans', sans-serif; 
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+/*darkmode*/
+.darkmode{
+    background:#6EC72D;
+    width:96px;
+    height:49px;
+    top:0;
+    right:0;
+    position:fixed ;
+    text-align:center;
+    padding:5px;
+    z-index:9999;
+}
+.darkmodeBtn{
+    background:#050d2e;
+    padding:16px 28px 16px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:24px;
+    border-radius:15px;   
+}
+.brightMode{
+    padding:16px 28px 16px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:24px;
+    background:azure;
+    border-radius:15px;   
+}
+.circle{
+    width:15px;
+    height:15px;
+    background:azure;
+    padding:3.6px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:4.5px;
+    
+}
+.toggleCirle{
+    width:15px;
+    height:15px;
+    background:#050d2e;
+    padding:3.6px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:28.5px;
+    
+}
+.bodyColorChange{
+    background: #050d2e;
+    color: #e2ffe2;
+}
+
+.myName{
+    padding-left:24px;
+    background:#050d2e;
+    width:100vw;
+    padding-top:17px;
+    padding-bottom:23px;
+    margin:0;
+    top:0;
+    position:fixed;
+    color: #e2ffe2;
+}
+
+/* home page styling */
+    .homePage{
+    clear:both;
+    margin:0;
+    text-align:center;
+    width:100vw;
+    margin-top:35px;
+}
+.topContainer{
+    margin-bottom:20px;
+    width:100vw;
+}
+.content1, .content2{
+    display:inline-block;
+    padding-top:;
+    height:50vh;
+} 
+
+.content1{
+    width:60vw;
+    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
+    background-position: right top;
+    background-clip: content-box;
+    background-size: 50%;
+}
+.subContent1a, .subContent1b{
+    display: inline-block;
+}
+.subContent1a{
+    width:26vw;
+}
+.subContent1b{
+    width:32vw;
+    background: red;
+}
+.subContent1a h1{
+    font-size:1.2rem;
+    margin-left: 24px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.subContent1a p{
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 24px;
+}
+.subContent1a .more, .subContent1a .less{
+    display: none;
+}
+.subContent1a button{
+    border:none;
+    width: 240px;
+    padding: 12px;
+    background: #6EC72D;
+    color: #e2ffe2;
+    border-radius: 5px;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
+}
+.subContent1a button:hover{
+    background: #050d2e;
+    color: #6EC72D;
+    border-bottom: 0.5px solid #6EC72D;
+}
+.content2{
+    width:37vw;
+    margin-right: 24px;
+}
+.content2 iframe{
+    width:37vw;
+    margin:0;
+    padding:0;
+}
+.subContent2 h3{
+    padding-top: 25px;
+    margin-bottom:0;
+}
+iframe{
+    border: none;
+    height: 332px;
+}
+
+.box1{
+    width:26vw;
+}
+.box2{
+    width:34vw;
+}
+.box3{
+    width:37vw; 
+}
+
+.box1, .box2, .box3{
+    display:inline-block;
+    margin-top: 0;
+}
+.box1 p{
+    text-align: left;
+    margin-left: 12px;
+}
+.box1 .arrow{
+    font-weight: bold;
+    font-size: 30px;
+}
+.box3 .fa{
+    padding:6px 10px 6px 10px;
+}
+.box3 .fa:hover{
+    color: #6EC72D;
+}
+
+@media(max-width:756px){
+body{
+    width:100vw;
+}
+
+.darkmode{
+    width:70px;
+}
+
+.darkmodeBtn{
+    margin-right:12px;
+}   
+
+.myName{
+    padding-left: 12px;
+    border-bottom: 0.1px solid #6EC72D;
+}
+
+.homePage{
+        text-align: center;
+        position:fixed;
+        margin-top:60px; /* update */
+        
+background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
+    background-size: 50% ;
+    background-position: center;
+}
+   
+.content1,.content2{
+    display:block;
+    width:100vw;
+    border:none;
+}
+.content1{
+    height:30vh;
+    z-index: 9999;
+    background: none;
+}
+.content2{
+height:54vh;
+bottom: 0;
+margin-bottom: 0px;
+margin: 0;
+position: fixed;
+background:-webkit-linear-gradient(top, transparent, #26292e);
+background:-moz-linear-gradient(top, transparent, #26292e);
+border-radius:30px 30px 0px 0px;
+}
+.subContent1a{
+    width: 100vw;
+}
+.subContent1a h1{
+    padding-top: 14px;
+}
+.subContent1a h1, .subContent1a p{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.subContent1a .more, .subContent1a .less{
+    display: inline-block;
+    padding-left: px;
+    padding-right: px;
+    color: #6EC72D;
+}
+.subContent1a .more:hover, .subContent1a .less:hover{
+    background: rgba(0,0,0,0.1);
+}
+.subContent1a h1{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.subContent1a button{
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+.subContent1b{
+    display: none;
+}
+.content2 h3{
+display: none;
+}
+.subContent2 p{
+    display: none;
+}
+.box1, .box2, .box3{
+    display:none;
+}
+.box3{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.content2 iframe{
+    width:94.5vw;
+    height:54vh;
+    margin:0;
+    padding:0;
+}
+
+.hidden{
+    display: none;
+}
+
+}
+
+
