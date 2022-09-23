@@ -3,7 +3,7 @@ const allNFTs =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/SinglePageJSApp/" target="_blank">
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
+                <img src="images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
                 </a>
                 </div>
                 <p>
@@ -21,7 +21,7 @@ const allNFTs =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/NourishMe/" target="_blank">
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
+                <img src="images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
                 </a>
                 </div>
                 <p>
@@ -39,7 +39,7 @@ const allNFTs =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/Motif/" target="_blank">
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/motif.jpg" class="nfts" alt="Motif Theme"/>
+                <img src="images/motif.jpg" class="nfts" alt="Motif Theme"/>
                 </a>
                 </div>
                 <p>
@@ -56,7 +56,7 @@ const allNFTs =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/Brainie/" target="_blank">
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
+                <img src="images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
                 </a>
                 </div>
                 <p>
@@ -73,7 +73,7 @@ const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/coming.png" class="nfts" alt="Coming Soon"/>
+                <img src="images/coming.png" class="nfts" alt="Coming Soon"/>
                 
                 </div>
                 <p>
