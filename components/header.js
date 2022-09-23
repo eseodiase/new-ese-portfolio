@@ -1,11 +1,15 @@
 const header =()=>{
-                return `<div class="header">
-    <label class="myName">Ese Odiase</label>
+    return `<div class="header">
+    <label class="myName">
+    Ese Odiase
+    </label>
     
     <div class="darkmode">
-    <span class="darkmodeBtn"><span class="roundToggle"></span>
+    <span class="darkmodeBtn">
+    <span class="circle"></span>
     </span>
     </div> 
-                     </div>`;
-};
+    
+    </div>`;
+}
 export default header;
