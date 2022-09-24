@@ -103,8 +103,8 @@ user-select: none; /* Standard syntax */
 } 
 
 .content1{
-    width:60vw;
-    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
+    width:58vw;
+    background: url("images/me.png") no-repeat;
     background-position: right top;
     background-clip: content-box;
     background-size: 50%;
@@ -218,7 +218,7 @@ body{
         position:fixed;
         margin-top:60px; /* update */
         
-background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
+background: url("images/me.png") no-repeat;
     background-size: 50% ;
     background-position: center;
 }
