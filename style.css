@@ -247,7 +247,7 @@ border-radius:30px 30px 0px 0px;
     width: 100vw;
 }
 .subContent1a h1{
-    margin-top: 40px;
+    margin-top: 44px;
     font-size: 1.2rem;
     margin-left: 10px;
 }
@@ -265,8 +265,7 @@ border-radius:30px 30px 0px 0px;
     background: rgba(0,0,0,0.1);
 }
 .subContent1a button{
-    margin-top: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 .subContent1b{
     display: none;
