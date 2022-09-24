@@ -116,7 +116,7 @@ user-select: none; /* Standard syntax */
     width:26vw;
 }
 .subContent1b{
-    width:32vw;
+    width:30vw;
     background: red;
 }
 .subContent1a h1{
@@ -216,7 +216,7 @@ body{
 .homePage{
         text-align: center;
         position:fixed;
-        margin-top:60px; /* update */
+        margin-top:35px; /* update */
         
 background: url("images/me.png") no-repeat;
     background-size: 50% ;
