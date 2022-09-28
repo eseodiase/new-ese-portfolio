@@ -20,7 +20,7 @@ const allNFTs =()=>{
             const iframe1 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.github.io/NourishMe/" target="_blank">
+                <a href="https://ipfs.fleek.co/ipfs/QmcxywYKS7noA16VtTiCjeN6rjSnpatAL2fKoggf2QjmJn/" target="_blank">
                 <img src="images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
                 </a>
                 </div>
