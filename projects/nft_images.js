@@ -2,7 +2,7 @@ const allNFTs =()=>{
             const iframe0 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.github.io/SinglePageJSApp/" target="_blank">
+                <a href="https://ipfs.fleek.co/ipfs/QmcxywYKS7noA16VtTiCjeN6rjSnpatAL2fKoggf2QjmJn/" target="_blank">
                 <img src="images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
                 </a>
                 </div>
@@ -20,7 +20,7 @@ const allNFTs =()=>{
             const iframe1 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://ipfs.fleek.co/ipfs/QmcxywYKS7noA16VtTiCjeN6rjSnpatAL2fKoggf2QjmJn/" target="_blank">
+                <a href="" target="_blank">
                 <img src="images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
                 </a>
                 </div>
@@ -38,7 +38,7 @@ const allNFTs =()=>{
             const iframe2 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.github.io/Motif/" target="_blank">
+                <a href="https://ipfs.fleek.co/ipfs/QmVq5Hq2hSqkFRiNCv85sUHUEKby31meSBieFSGi2b2uwM/" target="_blank">
                 <img src="images/motif.jpg" class="nfts" alt="Motif Theme"/>
                 </a>
                 </div>
@@ -55,7 +55,7 @@ const allNFTs =()=>{
             const iframe3 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.github.io/Brainie/" target="_blank">
+                <a href="https://ipfs.fleek.co/ipfs/QmZ8zfcHS1J5yg9aF1fMK7y4iavGuDwmCgZc8VYwx29YSh/" target="_blank">
                 <img src="images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
                 </a>
                 </div>
