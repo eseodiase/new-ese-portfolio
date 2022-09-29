@@ -91,7 +91,7 @@ return `<section class="homePage">
     <i class="fa fa-whatsapp"></i>
     </a>
 
-    <a href="https://eseodiase.github.io" target="_blank">
+    <a href="https://github.com/eseodiase" target="_blank">
     <i class="fa fa-github"></i>
     </a>
     </div>
