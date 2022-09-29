@@ -78,15 +78,22 @@ return `<section class="homePage">
     <a href="https://twitter.com/shapemytech" target="_blank">
     <i class="fa fa-twitter"></i>
     </a>
-
+    
+    <a href="https://instagram.com/shapemytech" target="_blank">
     <i class="fa fa-instagram"></i>
+    </a>
+    
+    <a href="https://youtube.com/shapemytech" target="_blank">
     <i class="fa fa-youtube"></i>
+    </a>
 
     <a href="https://wa.me/2348153929729" target="_blank">
     <i class="fa fa-whatsapp"></i>
     </a>
 
+    <a href="https://eseodiase.github.io" target="_blank">
     <i class="fa fa-github"></i>
+    </a>
     </div>
                  
              </section>`;
