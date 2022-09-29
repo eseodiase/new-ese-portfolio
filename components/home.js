@@ -55,7 +55,7 @@ return `<section class="homePage">
             <div class="content2">
             <div class="subContent2">
    <h3>${homeObj.subTitle}</h3>
-   <iframe src="https://eseodiase.github.io/new-ese-portfolio/projects/nft_images.html" class="nftAction"></iframe>
+   <iframe src="https://eseodiase.website/projects/nft_images.html" class="nftAction"></iframe>
    <p>« Explore project demos »</p>
             </div>
             </div>
