@@ -83,7 +83,7 @@ return `<section class="homePage">
     <i class="fa fa-instagram"></i>
     </a>
     
-    <a href="https://youtube.com/shapemytech" target="_blank">
+    <a href="https://www.youtube.com/channel/UC94Q3rFwehL0v-OF-ynHiGw" target="_blank">
     <i class="fa fa-youtube"></i>
     </a>
 
