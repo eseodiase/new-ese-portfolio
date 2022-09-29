@@ -180,6 +180,10 @@ iframe{
     display:inline-block;
     margin-top: 0;
 }
+.box3 a{
+    text-decoration:none;
+    color: #050d2e;
+}
 .box1 p{
     text-align: left;
     margin-left: 12px;
