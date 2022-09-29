@@ -75,14 +75,14 @@ return `<section class="homePage">
     </div>
     
     <div class="box3">
-    <a href="twitter.com/shapemytech">
+    <a href="twitter.com/shapemytech" target="_blank">
     <i class="fa fa-twitter"></i>
     </a>
 
     <i class="fa fa-instagram"></i>
     <i class="fa fa-youtube"></i>
 
-    <a href="wa.me/2348153929729">
+    <a href="wa.me/2348153929729" target="_blank">
     <i class="fa fa-whatsapp"></i>
     </a>
 
