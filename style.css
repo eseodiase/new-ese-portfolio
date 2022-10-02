@@ -194,9 +194,10 @@ iframe{
 }
 .box3 .fa{
     padding:6px 10px 6px 10px;
+    color: #6EC72D;
 }
 .box3 .fa:hover{
-    color: #6EC72D;
+    color: #cdffff;
 }
 
 @media(max-width:756px){
