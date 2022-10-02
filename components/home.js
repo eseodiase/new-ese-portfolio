@@ -44,7 +44,10 @@ return `<section class="homePage">
                  </p>
                  
                  <button type="button">
+                 <a href="https://opensea.io/collection/
+ese-odiase-web-app-collections">
                  ${homeObj.callToAction}
+                 </a>
                  </button>
             </div>
             
