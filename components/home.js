@@ -2,7 +2,7 @@ const home =()=>{
 const homeObj = {
     //content1
        content1Title: "UPSCALING DEVELOPER",
-       content1Article1: "Hello, welcome to my website. I build responsive web applications with HTML5, CSS3 and JavaScript. Most of my developements are single page 'JavaScript' applications. i.e, these web apps behave just like React.",
+       content1Article1: "Hello, welcome to my website. I build responsive web applications with HTML5, CSS3 and JavaScript. Most of my developements are single page 'JavaScript' applications. i.e, these web apps load just like React.",
        content1Article2: "these applications have just a single page. Other pages are therefore built as components, and when navigated or visited get updated on the single page. Feel free to explore my project demos displayed on this website.",
        
        content1Article3: "Also, my projects are available as NFTs.",
