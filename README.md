@@ -1,3 +1,12 @@
-# web-platform-jrmubv
+Official website:
+https://eseodiase.website/
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-jrmubv)
+CREATIVE HASHTAGS:
+
+#WebAppNFTs
+
+#ProgrammingCodeNFTs
+
+#designbyese 
+
+#developedbyese
