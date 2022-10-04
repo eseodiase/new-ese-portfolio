@@ -78,11 +78,11 @@ ese-odiase-web-app-collections">
     </div>
     
     <div class="box3">
-    <a href="https://twitter.com/shapemytech" target="_blank">
+    <a href="https://twitter.com/webappnfts" target="_blank">
     <i class="fa fa-twitter"></i>
     </a>
     
-    <a href="https://instagram.com/shapemytech" target="_blank">
+    <a href="https://instagram.com/webappnfts" target="_blank">
     <i class="fa fa-instagram"></i>
     </a>
     
