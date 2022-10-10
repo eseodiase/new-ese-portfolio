@@ -72,9 +72,9 @@ const allNFTs =()=>{
 const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                
+                <a href="https://ipfs.fleek.co/ipfs/QmVzTK9d4yBhH6YK5ax644QPc8QNpmRE3o3vdrJ6gAFVVq" target="_blank">
                 <img src="images/Lyrics.jpg" class="nfts" alt="Lyrics App"/>
-                
+                </a>
                 </div>
                 <p>
                 Lyrics App
@@ -89,9 +89,9 @@ const iframe4 =()=>{
 const iframe5 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                
+                <a>
                 <img src="images/coming.png" class="nfts" alt="Coming Soon"/>
-                
+                </a>
                 </div>
                 <p>
                 Web App
