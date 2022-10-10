@@ -72,7 +72,7 @@ const allNFTs =()=>{
 const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://ipfs.fleek.co/ipfs/QmVzTK9d4yBhH6YK5ax644QPc8QNpmRE3o3vdrJ6gAFVVq" target="_blank">
+                <a href="https://lyrics-finder.on.fleek.co/" target="_blank">
                 <img src="images/Lyrics.jpg" class="nfts" alt="Lyrics App"/>
                 </a>
                 </div>
@@ -86,25 +86,10 @@ const iframe4 =()=>{
                 </div>`;
 }
 
-const iframe5 =()=>{
-                return`<div class="iframe">
-                <div class="card">
-                <a>
-                <img src="images/coming.png" class="nfts" alt="Coming Soon"/>
-                </a>
-                </div>
-                <p>
-                Web App
-                <br/>
-                <span class="languages">
-                React JS
-                </span>
-                </p>
-                </div>`;
-}
+
 //
 const allFrames =()=>{
-              document.querySelector(".myIframe").innerHTML = ( iframe0 () + iframe1 () + iframe2() + iframe3() + iframe4() + iframe5() );
+              document.querySelector(".myIframe").innerHTML = ( iframe0 () + iframe1 () + iframe2() + iframe3() + iframe4() );
             }
             allFrames();
 //
