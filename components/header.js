@@ -1,8 +1,15 @@
 const header =()=>{
     return `<div class="header">
-    <label class="myName">
+
+    <ul class="myName">
+    <li class="ul_left"><i class="fa fa-home"></i>
     Ese Odiase
-    </label>
+    </li>
+    
+    <li class="ul_right">
+    <a href="#">Portfolio</a>
+    </li>
+    </ul>
     
     <div class="darkmode">
     <span class="darkmodeBtn">
