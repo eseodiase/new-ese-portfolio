@@ -13,6 +13,37 @@ font-family: 'Work Sans', sans-serif;
 -ms-user-select: none; /* IE 10 and IE 11 */
 user-select: none; /* Standard syntax */
 }
+.ul_left{
+    left: 14px;
+    position: absolute;
+}
+.ul_right{
+    text-align: right;
+    color: #e2ffe2;
+    right: 104px;
+    position:absolute;
+}
+header{
+    top: 0;
+    position: fixed;
+    margin: 0;
+    z-index: 9999;
+    padding-top:22px;
+    padding-bottom: 37px;
+    background:#050d2e;
+}
+header ul{
+    width: 100vw;
+}
+header ul li{
+    display: inline;
+}
+header i{
+    padding-right: 14px;
+}
+li{
+    list-style-type: none;
+}
 /*darkmode*/
 .darkmode{
     background:#6EC72D;
@@ -74,23 +105,19 @@ user-select: none; /* Standard syntax */
 
 .myName{
     padding-left:24px;
-    background:#050d2e;
     width:100vw;
-    padding-top:17px;
-    padding-bottom:23px;
     margin:0;
     top:0;
-    position:fixed;
     color: #e2ffe2;
 }
 
 /* home page styling */
     .homePage{
-    clear:both;
+    clear:;
     margin:0;
     text-align:center;
     width:100vw;
-    margin-top:70px;
+    margin-top:35px;
 }
 .topContainer{
     margin-bottom:20px;
@@ -99,12 +126,12 @@ user-select: none; /* Standard syntax */
 .content1, .content2{
     display:inline-block;
     padding-top:;
-    height:70vh;
+    height:50vh;
 } 
 
 .content1{
-    width:58vw;
-    background: url("images/me.png") no-repeat;
+    width:60vw;
+    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
     background-position: right top;
     background-clip: content-box;
     background-size: 50%;
@@ -116,7 +143,7 @@ user-select: none; /* Standard syntax */
     width:26vw;
 }
 .subContent1b{
-    width:30vw;
+    width:32vw;
     background: red;
 }
 .subContent1a h1{
@@ -142,10 +169,6 @@ user-select: none; /* Standard syntax */
     color: #e2ffe2;
     border-radius: 5px;
     box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
-}
-.subContent1a button a{
-   text-decoration:none;
-   color: #e2ffe2;
 }
 .subContent1a button:hover{
     background: #050d2e;
@@ -184,10 +207,6 @@ iframe{
     display:inline-block;
     margin-top: 0;
 }
-.box3 a{
-    text-decoration:none;
-    color: #050d2e;
-}
 .box1 p{
     text-align: left;
     margin-left: 12px;
@@ -198,15 +217,17 @@ iframe{
 }
 .box3 .fa{
     padding:6px 10px 6px 10px;
-    color: #6EC72D;
 }
 .box3 .fa:hover{
-    color: #cdffff;
+    color: #6EC72D;
 }
 
 @media(max-width:756px){
 body{
     width:100vw;
+}
+header{
+    border-bottom: 0.5px solid #6EC72D;
 }
 
 .darkmode{
@@ -219,15 +240,14 @@ body{
 
 .myName{
     padding-left: 12px;
-    border-bottom: 0.1px solid #6EC72D;
 }
 
 .homePage{
         text-align: center;
         position:fixed;
-        margin-top:35px; /* update */
+        margin-top:60px; /* update */
         
-background: url("images/me.png") no-repeat;
+background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
     background-size: 50% ;
     background-position: center;
 }
@@ -256,9 +276,7 @@ border-radius:30px 30px 0px 0px;
     width: 100vw;
 }
 .subContent1a h1{
-    margin-top: 44px;
-    font-size: 1.2rem;
-    margin-left: 10px;
+    padding-top: 14px;
 }
 .subContent1a h1, .subContent1a p{
     margin-left:10px;
@@ -273,8 +291,13 @@ border-radius:30px 30px 0px 0px;
 .subContent1a .more:hover, .subContent1a .less:hover{
     background: rgba(0,0,0,0.1);
 }
+.subContent1a h1{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
 .subContent1a button{
-    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 6px;
 }
 .subContent1b{
     display: none;

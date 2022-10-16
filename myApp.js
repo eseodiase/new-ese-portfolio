@@ -1,1 +1,84 @@
-(function(_0x3bbcef,_0x129bf0){const _0x588962=_0x2d04,_0x298e64=_0x3bbcef();while(!![]){try{const _0x3ddacd=-parseInt(_0x588962(0x163))/0x1*(-parseInt(_0x588962(0x17b))/0x2)+parseInt(_0x588962(0x172))/0x3*(parseInt(_0x588962(0x177))/0x4)+-parseInt(_0x588962(0x181))/0x5+parseInt(_0x588962(0x15f))/0x6*(parseInt(_0x588962(0x17f))/0x7)+-parseInt(_0x588962(0x16f))/0x8*(-parseInt(_0x588962(0x17d))/0x9)+parseInt(_0x588962(0x176))/0xa+-parseInt(_0x588962(0x174))/0xb;if(_0x3ddacd===_0x129bf0)break;else _0x298e64['push'](_0x298e64['shift']());}catch(_0x382b4d){_0x298e64['push'](_0x298e64['shift']());}}}(_0xcd17,0x862c2));import _0x5d19b3 from'./components/header.js';import _0x5869ae from'./components/home.js';const myApp=()=>{const _0x19e148=_0x2d04;document['querySelector']('.header')[_0x19e148(0x16a)]=_0x5d19b3(),document[_0x19e148(0x175)](_0x19e148(0x178))['innerHTML']=_0x5869ae();const _0x31d4b9=document[_0x19e148(0x175)](_0x19e148(0x17e));_0x31d4b9[_0x19e148(0x168)]('click',()=>{const _0x1be165=_0x19e148,_0x52915a=document[_0x1be165(0x175)](_0x1be165(0x170)),_0x592bbc=document[_0x1be165(0x179)];_0x31d4b9['classList'][_0x1be165(0x17c)](_0x1be165(0x166)),_0x52915a[_0x1be165(0x16b)]['toggle'](_0x1be165(0x173)),_0x592bbc['classList']['toggle'](_0x1be165(0x16e));});const _0x246796=document[_0x19e148(0x175)](_0x19e148(0x182)),_0x12b652=document[_0x19e148(0x175)](_0x19e148(0x16d)),_0x3d6b30=document[_0x19e148(0x175)](_0x19e148(0x164)),_0x3b057a=document[_0x19e148(0x175)](_0x19e148(0x161));_0x3b057a[_0x19e148(0x168)](_0x19e148(0x171),()=>{const _0x2aca5e=_0x19e148,_0x394bd7=document[_0x2aca5e(0x175)]('.hidden');_0x246796[_0x2aca5e(0x160)][_0x2aca5e(0x17a)]=_0x2aca5e(0x169),_0x394bd7[_0x2aca5e(0x160)][_0x2aca5e(0x16c)]=_0x2aca5e(0x167),_0x3b057a[_0x2aca5e(0x160)][_0x2aca5e(0x16c)]=_0x2aca5e(0x165),_0x12b652['style'][_0x2aca5e(0x16c)]='none',_0x3d6b30[_0x2aca5e(0x160)][_0x2aca5e(0x16c)]=_0x2aca5e(0x167);});const _0x4aef47=document[_0x19e148(0x175)](_0x19e148(0x162));_0x4aef47['addEventListener']('click',()=>{const _0x154ef6=_0x19e148,_0x43bad0=document[_0x154ef6(0x175)]('.hidden');_0x246796['style'][_0x154ef6(0x17a)]='0',_0x43bad0[_0x154ef6(0x160)]['display']=_0x154ef6(0x165),_0x3b057a['style'][_0x154ef6(0x16c)]=_0x154ef6(0x180),_0x12b652[_0x154ef6(0x160)][_0x154ef6(0x16c)]=_0x154ef6(0x167),_0x3d6b30[_0x154ef6(0x160)][_0x154ef6(0x16c)]='none';});};function _0xcd17(){const _0x3a2caf=['display','.content2','bodyColorChange','994096eClPKw','.circle','click','27BsXnhF','toggleCirle','29332248DbgTQf','querySelector','4788370yrkncn','452524YdMxFm','.main','body','marginTop','1286396CIkGtm','toggle','63BbKhok','.darkmodeBtn','5917639apEyWu','inline-block','3196435hCmVAi','.subContent1a','6NstKUo','style','.more','.less','1mQKkjg','.box3','none','brightMode','block','addEventListener','175px','innerHTML','classList'];_0xcd17=function(){return _0x3a2caf;};return _0xcd17();}function _0x2d04(_0x398265,_0x2620d8){const _0xcd17cd=_0xcd17();return _0x2d04=function(_0x2d0403,_0x3b8680){_0x2d0403=_0x2d0403-0x15f;let _0x4c6183=_0xcd17cd[_0x2d0403];return _0x4c6183;},_0x2d04(_0x398265,_0x2620d8);}export default myApp;
+import header from "./components/header.js";
+import home from "./components/home.js";
+import {iframe0, iframe1, iframe2, iframe3, iframe4} from "./components/portfolio.js";
+
+const myApp=()=>{
+    document.querySelector(".header").innerHTML = ( header() );
+    document.querySelector(".main").innerHTML = ( home() );
+    
+    //darkmode toggle :
+   const dkm = document.querySelector(".darkmodeBtn");
+   dkm.addEventListener("click", ()=>{
+       const circle = document.querySelector (".circle");
+       const bd = document.body;
+       dkm.classList.toggle ("brightMode");
+       circle.classList.toggle("toggleCirle");
+       bd.classList.toggle("bodyColorChange");
+   });
+   
+ //view more article on mobile version:   
+ const subContent1a = document.querySelector(".subContent1a");
+ const content2 = document.querySelector(".content2");
+ const box3 = document.querySelector(".box3");
+ 
+ const more = document.querySelector(".more");
+ more.addEventListener("click", ()=>{
+ const hiddenArticle = document.querySelector(".hidden");
+ subContent1a.style.marginTop="175px";
+ hiddenArticle.style.display="block";
+ more.style.display="none";
+ content2.style.display="none";
+ box3.style.display="block";
+ });
+ 
+  //view less article on mobile version:   
+ const less = document.querySelector(".less");
+ less.addEventListener("click", ()=>{
+ const hiddenArticle = document.querySelector(".hidden");
+ subContent1a.style.marginTop="0";
+ hiddenArticle.style.display="none";
+ more.style.display="inline-block";
+ content2.style.display="block";
+ box3.style.display="none";
+ });
+ 
+ // goto portfolioPage 
+ const port = document.querySelector(".ul_right").onclick = function (){
+     document.querySelector(".main").innerHTML = ( iframe0() + iframe1() + iframe2() + iframe3() + iframe4() );
+     const main = document.querySelector(".main").style.marginTop="80px";
+}
+
+ // back to homePage 
+ const homePage = document.querySelector(".ul_left").onclick = function (){
+     document.querySelector(".main").innerHTML = ( home() );
+     const main = document.querySelector(".main").style.marginTop="6px";
+     
+      //view more article on mobile version:   
+ const subContent1a = document.querySelector(".subContent1a");
+ const content2 = document.querySelector(".content2");
+ const box3 = document.querySelector(".box3");
+ 
+ const more = document.querySelector(".more");
+ more.addEventListener("click", ()=>{
+ const hiddenArticle = document.querySelector(".hidden");
+ subContent1a.style.marginTop="175px";
+ hiddenArticle.style.display="block";
+ more.style.display="none";
+ content2.style.display="none";
+ box3.style.display="block";
+ });
+ 
+  //view less article on mobile version:   
+ const less = document.querySelector(".less");
+ less.addEventListener("click", ()=>{
+ const hiddenArticle = document.querySelector(".hidden");
+ subContent1a.style.marginTop="0";
+ hiddenArticle.style.display="none";
+ more.style.display="inline-block";
+ content2.style.display="block";
+ box3.style.display="none";
+ });
+ }
+ 
+};
+export default myApp; 
