@@ -70,7 +70,7 @@
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/Brainie/" target="_blank">
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
+                <img src="images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
                 </a>
                 </div>
                 <p>
@@ -86,15 +86,15 @@
 const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="" target="_blank">
-                <img src="" class="nfts" alt="Lyrics App"/>
+                <a href="https://eseodiase.website/lyrics/index.html" target="_blank">
+                <img src="images/Lyrics.jpg" class="nfts" alt="Lyrics App"/>
                 </a>
                 </div>
                 <p>
                 Lyrics App
                 <br/>
                 <span class="languages">
-                HTML/CSS/JS & API
+                HTML5/CSS3/JS & API
                 </span>
                 </p>
                 </div>`;
@@ -104,7 +104,7 @@ const iframe5 =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="" target="_blank">
-                <img src="" class="nfts" alt="Chessboard"/>
+                <img src="images/chess.jpg" class="nfts" alt="Chessboard"/>
                 </a>
                 </div>
                 <p>
