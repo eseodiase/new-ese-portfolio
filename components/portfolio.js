@@ -1,6 +1,20 @@
 
             const iframe0 =()=>{
-                return`<div class="iframe">
+                return`
+                <h3 class="port">
+                My portfolio consist of front-end 
+                projects created with HTML, CSS, 
+                JavaScript, React and API.
+                </h3>
+                
+                                
+ <span class="backToTop">
+ <a href="#">
+ <i class="fa fa-chevron-up"></i>
+ </a>
+ </span>
+                
+                <div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.github.io/SinglePageJSApp/" target="_blank">
                 <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
@@ -72,18 +86,52 @@
 const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                
-                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/coming.png" class="nfts" alt="Coming Soon"/>
-                
+                <a href="" target="_blank">
+                <img src="" class="nfts" alt="Lyrics App"/>
+                </a>
                 </div>
                 <p>
-                Web App
+                Lyrics App
                 <br/>
                 <span class="languages">
-                React JS
+                HTML/CSS/JS & API
+                </span>
+                </p>
+                </div>`;
+}
+
+const iframe5 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="" target="_blank">
+                <img src="" class="nfts" alt="Chessboard"/>
+                </a>
+                </div>
+                <p>
+                Chessboard
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
+                </span>
+                </p>
+                </div>`;
+            }
+            
+const iframe6 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="" target="_blank">
+                <img src="" class="nfts" alt="Symbolic Code"/>
+                </a>
+                </div>
+                <p>
+                Symbolic Code
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
                 </span>
                 </p>
                 </div>`;
 }
             
-export {iframe0, iframe1, iframe2, iframe3, iframe4}
+export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6}
