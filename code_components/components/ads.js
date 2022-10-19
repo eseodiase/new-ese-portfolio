@@ -25,7 +25,7 @@ const ads=()=>{
   <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/110263327349153171342687503264713218213834256363251154869728871229907806453761">
   <img src="https://ipfs.fleek.co/ipfs/bafybeif4w77axdnyhrecawscy7achreva6s43qjs5cnocihfnn6yl4xodu" style="width:100%; height:250px">
   </a>
-<div class="text">NFT: A RESTAURANTE WEB THEME</div>
+<div class="text" style="color: #26292e">NFT: SINGLE PAGE JS WEB APP</div>
 </div>
 
 <div class="mySlides fade">
@@ -33,7 +33,7 @@ const ads=()=>{
   <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/110263327349153171342687503264713218213834256363251154869728871231007318081537">
   <img src="https://ipfs.fleek.co/ipfs/bafybeigr2lct2ezfes3lhm4hhmfhh53ecwh6zozn4udtxtxepc3xkk5hym" style="width:100%; height:250px">
   </a>
-<div class="text" style="color: #26292e">NFT: SINGLE PAGE JS WEB APP</div>
+<div class="text">NFT: A RESTAURANTE WEB THEME</div>
 </div>
 
 <div class="mySlides fade">
