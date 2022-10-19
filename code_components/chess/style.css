@@ -1,0 +1,52 @@
+
+body{
+    background: #333;
+    color: #f0f0f0;
+}
+.item1 { 
+grid-area: header;
+}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: six; }
+.item7 { grid-area: seven; }
+.item8 { grid-area: eight; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header menu main right footer six seven eight';
+  color:grey;
+  background-color: #eee;
+}
+
+.grid-container > div {
+  background: #eee;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  width:36px
+  height: 36px;
+}
+
+.grid-container > div:hover {
+    background: wheat;
+}
+
+.blank{
+padding:20px;
+}
+
+#dark{
+    background: #302738;
+}
+
+#dark:hover{
+    background: #333;
+}
+.darkPieces{
+    color:brown;
+}
+
