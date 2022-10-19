@@ -103,7 +103,7 @@ const iframe4 =()=>{
 const iframe5 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="" target="_blank">
+                <a href="https://eseodiase.website/code_components/chess/index.html" target="_blank">
                 <img src="images/chess.jpg" class="nfts" alt="Chessboard"/>
                 </a>
                 </div>
@@ -111,7 +111,7 @@ const iframe5 =()=>{
                 Chessboard
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS(Grid)
                 </span>
                 </p>
                 </div>`;
@@ -120,8 +120,8 @@ const iframe5 =()=>{
 const iframe6 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="" target="_blank">
-                <img src="" class="nfts" alt="Symbolic Code"/>
+                <a href="https://eseodiase.website/code.html" target="_blank">
+                <img src="images/code.jpg" class="nfts" alt="Symbolic Code"/>
                 </a>
                 </div>
                 <p>
@@ -133,5 +133,22 @@ const iframe6 =()=>{
                 </p>
                 </div>`;
 }
+
+const iframe7 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://react-ecmdba.stackblitz.io" target="_blank">
+                <img src="images/ludo.jpg" class="nfts" alt="Symbolic Code"/>
+                </a>
+                </div>
+                <p>
+                Ludo Board
+                <br/>
+                <span class="languages">
+                CSS(Grid)/ReactJS
+                </span>
+                </p>
+                </div>`;
+}
             
-export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6}
+export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6, iframe7}
