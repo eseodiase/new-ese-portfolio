@@ -130,7 +130,7 @@ li{
 } 
 
 .content1{
-    width:60vw;
+    width:58vw;
     background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
     background-position: right top;
     background-clip: content-box;
@@ -140,10 +140,10 @@ li{
     display: inline-block;
 }
 .subContent1a{
-    width:25vw;
+    width:26vw;
 }
 .subContent1b{
-    width:30vw;
+    width:32vw;
     background: red;
 }
 .subContent1a h1{
