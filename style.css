@@ -122,6 +122,7 @@ li{
 .topContainer{
     margin-bottom:20px;
     width:100vw;
+    background: #d1afaf;
 }
 .content1, .content2{
     display:inline-block;
