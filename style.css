@@ -20,7 +20,7 @@ user-select: none; /* Standard syntax */
 .ul_right{
     text-align: right;
     color: #e2ffe2;
-    right: 104px;
+    right: 140px;
     position:absolute;
 }
 header{
@@ -241,6 +241,10 @@ header{
 
 .myName{
     padding-left: 12px;
+}
+
+.ul_right{
+    right: 104px;
 }
 
 .homePage{
