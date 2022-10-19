@@ -80,7 +80,7 @@ const iframe4 =()=>{
                 Lyrics App
                 <br/>
                 <span class="languages">
-                HTML5/CSS3/JS & API
+                HTML/CSS/JavaScript & API
                 </span>
                 </p>
                 </div>`;
