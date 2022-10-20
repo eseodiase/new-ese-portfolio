@@ -4,7 +4,11 @@ const chessboard =()=>{
     return `
     <h1>Static Chessboard</h1>
 
-<p>The chess pieces used are from Symbolic CODE by Ese Odiase</p>
+<p>The chess pieces used are from 
+<a href=https://eseodiase.website/code.html">
+Symbolic CODE
+</a> by Ese Odiase
+</p>
 
 <div class="grid-container">
   <div id="dark" class="item1">&#9820</div>
