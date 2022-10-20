@@ -117,7 +117,7 @@ li{
     margin:0;
     text-align:center;
     width:100vw;
-    margin-top:35px;
+    margin-top:15px;
 }
 .topContainer{
     margin-bottom:20px;
@@ -133,7 +133,7 @@ li{
     width:58vw;
         background-position: right top;
     background-clip: content-box;
-    background-size: 60%;
+    background-size: 50%;
     background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
 }
 .subContent1a, .subContent1b{
