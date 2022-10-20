@@ -5,7 +5,7 @@ const chessboard =()=>{
     <h1>Static Chessboard</h1>
 
 <p>The chess pieces used are from 
-<a href=https://eseodiase.website/code.html">
+<a href="https://eseodiase.website/code.html">
 Symbolic CODE
 </a> by Ese Odiase
 </p>
