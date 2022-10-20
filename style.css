@@ -12,6 +12,8 @@ font-family: 'Work Sans', sans-serif;
 -webkit-user-select: none; /* Safari */
 -ms-user-select: none; /* IE 10 and IE 11 */
 user-select: none; /* Standard syntax */
+background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
+background: cover;
 }
 .ul_left{
     left: 14px;
@@ -132,8 +134,7 @@ li{
 
 .content1{
     width:58vw;
-    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
-    background-position: right top;
+        background-position: right top;
     background-clip: content-box;
     background-size: 50%;
 }
@@ -227,6 +228,7 @@ iframe{
 @media(max-width:756px){
 body{
     width:100vw;
+    background: none;
 }
 header{
     border-bottom: 0.5px solid #6EC72D;
