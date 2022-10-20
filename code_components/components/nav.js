@@ -15,7 +15,7 @@ l9: "Others",
 l10: "Ese Odiase",
 
 //developer's url:
-url: "https://www.eseodiase.eth",
+url: "https://eseodiase.website/",
 
 //nav icon:
 bar: "&#1521;",
@@ -86,7 +86,7 @@ const all = allObjectsUsedOnHeader;
 
 
 <li class="dev">
-<img src="https://eseodiase.website/images/me.png" width="50" height="50" style="border-radius:50%; background:#26292e;" alt="Dev"/>
+<img src="https://ipfs.fleek.co/ipfs/bafybeiduikxoxgjejuihp2jyzdgjtu5ywepzygeld5io4og6nc3v4cpic4" width="50" height="50" style="border-radius:50%; background:#26292e;" alt="Dev"/>
     <br/>
     Developed by
     <a href=${all.url}>${all.l10}</a>
