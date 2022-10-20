@@ -12,8 +12,6 @@ font-family: 'Work Sans', sans-serif;
 -webkit-user-select: none; /* Safari */
 -ms-user-select: none; /* IE 10 and IE 11 */
 user-select: none; /* Standard syntax */
-background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
-background: cover;
 }
 .ul_left{
     left: 14px;
@@ -135,13 +133,15 @@ li{
     width:58vw;
         background-position: right top;
     background-clip: content-box;
-    background-size: 50%;
+    background-size: 60%;
+    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
 }
 .subContent1a, .subContent1b{
     display: inline-block;
 }
 .subContent1a{
     width:26vw;
+    margin-top: 0;
 }
 .subContent1b{
     width:30vw;
