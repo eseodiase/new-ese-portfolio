@@ -128,14 +128,14 @@ li{
     padding-top:;
     height:50vh;
 } 
-
 .content1{
-    width:58vw;
-        background-position: right top;
+    width:60vw;
+    background: url("images/me.png") no-repeat;
+    background-position: right top;
     background-clip: content-box;
     background-size: 50%;
-    background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
 }
+
 .subContent1a, .subContent1b{
     display: inline-block;
 }
