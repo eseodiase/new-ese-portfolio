@@ -258,7 +258,11 @@ background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") n
     background-size: 50% ;
     background-position: center;
 }
-   
+
+.topContainer{
+    background: none;
+}
+
 .content1,.content2{
     display:block;
     width:100vw;
