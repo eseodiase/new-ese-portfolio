@@ -142,10 +142,6 @@ li{
 }
 .subContent1b{
     width:30vw;
-    background: url("images/me.png") no-repeat;
-    background-position: right top;
-    background-clip: content-box;
-    background-size: 50%;
     height: 50vh;
 }
 .subContent1a h1{
