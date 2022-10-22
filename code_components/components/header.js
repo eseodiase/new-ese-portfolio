@@ -2,7 +2,7 @@ const header =()=>{
     return `<div class="header">
     
     <div class="darkmode">
-    <p style="visibility:hidden"> Game </p>
+    <p class="fetchGame"> Game </p>
     </div> 
     
     </div>`;
