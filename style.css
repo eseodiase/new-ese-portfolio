@@ -126,6 +126,7 @@ li{
     background-position: center;
     background-clip: content-box;
     background-size: cover;
+    color: #e2ffe2;
 }
 .content1, .content2{
     display:inline-block;
@@ -261,6 +262,7 @@ background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") n
 
 .topContainer{
     background: none;
+    color: none;
 }
 
 .content1,.content2{
