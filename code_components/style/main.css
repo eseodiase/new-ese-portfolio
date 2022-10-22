@@ -164,13 +164,12 @@ main {
 }
 .subNav .sub{
     display: inline-block;
-    width: 130px;
+    width: 170px;
     margin: 6px;
     padding: 4px;
     background: indigo;
     border-radius:4px;
     color: #f0f0f0;
-    opacity: 0.8;
 }
 .subNav .sub p{
     
@@ -346,7 +345,7 @@ nav ul li:hover{
 .logo, .logo:hover{
     color:indigo;  
     background:#e8effe;
-    padding:22px 14px 22px 14px;
+    padding:22px 14px 22px 28px;
     margin:0;
 }
 .dev{
