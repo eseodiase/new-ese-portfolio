@@ -5,6 +5,38 @@ const emojis =()=>{
     
     <section>
     <div class="seg">
+    <code class="writeUp"> &#<span>9785</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9785 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9786</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9786 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9787</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9787 </code>
+    </div>
+    </section>
+    
+    
+    <br/>
+    <section>
+    <div class="seg">
     <code class="writeUp"> &#<span>9889</span> </code>
     </div>
     
@@ -312,6 +344,151 @@ const emojis =()=>{
     </div>
     </section>
     
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9728</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9728 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9729</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9729 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9730</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9730 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9742</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9742 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9743</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9743 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9748</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9748 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9749</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9749 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9754</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9754 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9755</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9755 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9756</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9756 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9757</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9757 </code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9758</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9758 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9759</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9759 </code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9731</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9731 </code>
+    </div>
+    </section>
  </div>
  </section>`;
 }

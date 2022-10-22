@@ -304,7 +304,7 @@ const others =()=>{
     </section>
     
      <br/>
-     <section>
+    <section>
     <div class="seg">
     <code class="writeUp"> &#<span>9858</span> </code>
     </div>
@@ -331,6 +331,17 @@ const others =()=>{
     
     <div id="seg" class="seg">
     <code class="codeOutput">&#9860</code>
+    </div>
+    </section>
+    
+    <br/>
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9861</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9861</code>
     </div>
     </section>
     </li>
@@ -1515,6 +1526,286 @@ const others =()=>{
     </div>
     </section>
     
+    <!-- new arrows -->
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10132</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10132</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10136</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10136</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10137</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10137</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10138</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10138</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10139</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10139</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10140</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10140</code>
+    </div>
+    </section>
+    
+       
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10141</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10141</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10142</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10142</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10143</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10143</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10144</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10144</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10145</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10145</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10146</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10146</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10147</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10147</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10148</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10148</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10149</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10149</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10150</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10150</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10151</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10151</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10152</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10152</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10153</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10153</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10154</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10154</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10155</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10155</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10156</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10156</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10157</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10157</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10158</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10158</code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10159</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#10159</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10161</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10161</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>10162</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#10162</code>
+    </div>
+    </section>
     </li>
     </ul>
     </details>
@@ -1573,5 +1864,4 @@ const others =()=>{
  </section>`;
 }
 export default others;
-
 

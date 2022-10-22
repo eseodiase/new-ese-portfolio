@@ -4,11 +4,11 @@ const icons_1 =()=>{
    <br/>
      <section>
     <div class="seg">
-    <code class="writeUp"> &#<span>9703</span> </code>
+    <code class="writeUp"> &#<span>9707</span> </code>
     </div>
     
     <div id="seg" class="seg">
-    <code class="codeOutput">&#9703</code>
+    <code class="codeOutput">&#9707</code>
     </div>
     </section>
     
@@ -36,11 +36,11 @@ const icons_1 =()=>{
     <br/>
      <section>
     <div class="seg">
-    <code class="writeUp"> &#<span>664</span> </code>
+    <code class="writeUp"> &#<span>9737</span> </code>
     </div>
     
     <div id="seg" class="seg">
-    &#664
+     &#9737
     </div>
     </section>
     
@@ -348,10 +348,95 @@ const icons_1 =()=>{
     </section>
     
     
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9780</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9780</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9781</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9781</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9782</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">  &#9782 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9783</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9783</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9784</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9784</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9673</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">  &#9673 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9709</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9709</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9710</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9710</code>
+    </div>
+    </section>
+    
     </div>
     `;
 }
 export default icons_1;
+
+
 
 
 

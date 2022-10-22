@@ -447,6 +447,68 @@ const icons =()=>{
     <code class="codeOutput">  &#10004 </code>
     </div>
     </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9777</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9777</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9778</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9778</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9779</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">  &#9779 </code>
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9678</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">&#9678</code>
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9703</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput"> &#9703</code>
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9704</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    <code class="codeOutput">  &#9704 </code>
+    </div>
+    </section>
 
      </div>       
     </section>`;

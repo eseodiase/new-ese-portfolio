@@ -185,11 +185,11 @@ const signs =()=>{
     
      <section>
     <div class="seg">
-    <code class="writeUp"> &#<span>9894</span> </code>
+    <code class="writeUp"> &#<span>9792</span> </code>
     </div>
     
     <div id="seg" class="seg">
-    <code class="codeOutput">  &#9894 </code>
+    <code class="codeOutput">  &#9792 </code>
     </div>
     </section>
     
@@ -443,7 +443,90 @@ const signs =()=>{
       &#9878
     </div>
     </section>
-  
+     
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9760</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    &#9760
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9762</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+     &#9762
+    </div>
+    </section>
+    
+     <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9763</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+      &#9763
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9764</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    &#9764
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9770</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    &#9770
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9771</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+     &#9771
+    </div>
+    </section>
+    
+    <br/>
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9772</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    &#9772
+    </div>
+    </section>
+    
+    <section>
+    <div class="seg">
+    <code class="writeUp"> &#<span>9773</span> </code>
+    </div>
+    
+    <div id="seg" class="seg">
+    &#9773
+    </div>
+    </section>
     
     </div>
     </section>`;
