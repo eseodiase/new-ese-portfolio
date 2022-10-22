@@ -6,7 +6,8 @@ const myApp=()=>{
     document.querySelector(".header").innerHTML = ( header() );
     document.querySelector(".main").innerHTML = ( home() );
     
-    //darkmode toggle :
+  //darkmode toggle :
+   const mobileTxt = document.querySelector(".topContainer");
    const dkm = document.querySelector(".darkmodeBtn");
    dkm.addEventListener("click", ()=>{
        const circle = document.querySelector (".circle");
@@ -14,6 +15,7 @@ const myApp=()=>{
        dkm.classList.toggle ("brightMode");
        circle.classList.toggle("toggleCirle");
        bd.classList.toggle("bodyColorChange");
+       mobileTxt.classList.toggle("textToggle");
    });
    
  //view more article on mobile version:   
