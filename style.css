@@ -128,6 +128,11 @@ li{
     background-size: cover;
     color: #e2ffe2;
 }
+
+.textToggle{
+  color: none;
+}
+
 .content1, .content2{
     display:inline-block;
     padding-top:;
@@ -261,8 +266,10 @@ background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") n
 }
 
 .topContainer{
-    background: none;
-    color: none;
+    color: #050d2e;
+}
+.textToggle{
+  color: #e2ffe2;
 }
 
 .content1,.content2{
