@@ -266,6 +266,7 @@ background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") n
 }
 
 .topContainer{
+    background: none;
     color: #050d2e;
 }
 .textToggle{
