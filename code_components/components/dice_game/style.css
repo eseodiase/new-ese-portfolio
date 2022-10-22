@@ -1,1 +1,74 @@
-
+   
+    .diceGame{
+        height: 100vh;
+        padding-top: 30px;
+        margin-top: -50px;
+        background: -webkit-linear-gradient(top, #050d2c, #FFEFFE);
+        background: -moz-linear-gradient(top, #050d2c, #FFEFFE);
+        text-align: center;
+        color: #fff;
+    }
+    .diceTitle ul{
+        padding: 0;
+        text-align: left;
+    }
+    .diceTitle ul li{
+        list-style-type: none;
+        margin: 14px;
+        font-style: italic;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+        .ply, .roll{
+            border: 0.5px solid grey;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 7px;
+        }
+        .roll{
+            background: indigo;
+            width: 198px;
+            border: none;
+            margin-left: 65px;
+            color: #fff;
+        }
+        .one, .two, .three, .four, .five, .six{
+            display: none;
+        }
+        
+        .o_ne, .t_wo, .t_hree, .f_our, .f_ive, .s_ix{
+            display: none;
+        }
+        .generatedNum{
+            background: #050d2c;
+        }
+        .plyr1, .plyr2, .names p, #results p{
+            display: inline-block;
+        }
+        #results p{
+            padding: 10px 20px 10px 20px;
+        }
+        .plyr1, .plyr2{
+            font-size: 40px;
+            padding: 10px;
+            color: #050d2c;
+            text-align: center;
+            margin-bottom: -60px;
+        }
+        
+        .names{
+            padding: 10px;
+            color: #fff;
+            margin-bottom: -60px;
+            font-weight: bold;
+        }
+        .vs{
+            color: indigo;
+        }
+        .won{
+            background: green;
+            color: #fff;
+            border-radius: 15px;
+        }
+    
