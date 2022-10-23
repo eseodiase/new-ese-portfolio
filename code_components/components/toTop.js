@@ -1,8 +1,6 @@
  const toTop =()=>{
- return `<span class="backToTop">
- <a href="#">
- <span>&#8679;</span>
- </a>
- </span>`;
+ return ` <a href="#" class="backToTop">
+  &#8686;
+  </a>`;
  }
  export default toTop;
