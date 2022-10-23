@@ -26,10 +26,45 @@
 <div id="root"></div>
 
 <script type="text/babel">
-    
-const _0x1c448f=_0x2f0a;(function(_0x25bef5,_0xa207d7){const _0x1e7b4f=_0x2f0a,_0x12a52b=_0x25bef5();while(!![]){try{const _0x33575c=parseInt(_0x1e7b4f(0x1ea))/0x1+-parseInt(_0x1e7b4f(0x1eb))/0x2+-parseInt(_0x1e7b4f(0x1ef))/0x3*(-parseInt(_0x1e7b4f(0x1f7))/0x4)+parseInt(_0x1e7b4f(0x1e8))/0x5+-parseInt(_0x1e7b4f(0x1e9))/0x6*(parseInt(_0x1e7b4f(0x1f6))/0x7)+parseInt(_0x1e7b4f(0x1fc))/0x8+-parseInt(_0x1e7b4f(0x1f0))/0x9;if(_0x33575c===_0xa207d7)break;else _0x12a52b['push'](_0x12a52b['shift']());}catch(_0x34f798){_0x12a52b['push'](_0x12a52b['shift']());}}}(_0x3949,0xc3271));function _0x3949(){const _0x57511e=['1146991zfXgMR','2067156aUOHeU','json','Benin\x20City','temp','3xqzevT','11506329YZwSqx','#temp','description','weather','onload','querySelector','119UBzzig','1352948MkyoRl','&appid=','main','https://api.openweathermap.org/data/2.5/weather?q=','innerText','6985160Emykwe','0751b24cdf6d539e6f2bdfc798aa3f0f','addEventListener','#humidity','#search-input','round','5342500qIcHnn','111342igAIsM'];_0x3949=function(){return _0x57511e;};return _0x3949();}const apikey=_0x1c448f(0x1fd);function _0x2f0a(_0x234eb1,_0x3afea0){const _0x394906=_0x3949();return _0x2f0a=function(_0x2f0ac7,_0x91f7c6){_0x2f0ac7=_0x2f0ac7-0x1e7;let _0x519cb6=_0x394906[_0x2f0ac7];return _0x519cb6;},_0x2f0a(_0x234eb1,_0x3afea0);}function c(_0x415c36){const _0x49a339=_0x1c448f;return document[_0x49a339(0x1f5)](_0x415c36);}window[_0x1c448f(0x1f4)]=function(){const _0xd47fe8=_0x1c448f;async function _0x41ee52(_0x42b9cc){const _0x2d3152=_0x2f0a,_0x2aa06d=_0x2d3152(0x1fa)+_0x42b9cc+_0x2d3152(0x1f8)+apikey,_0x320048=await fetch(_0x2aa06d),_0x57e9e1=await _0x320048[_0x2d3152(0x1ec)]();_0x20effc(_0x57e9e1[_0x2d3152(0x1f3)][0x0][_0x2d3152(0x1f2)],_0x57e9e1['main'][_0x2d3152(0x1ee)],_0x57e9e1[_0x2d3152(0x1f9)]['humidity']);}const _0x10a3c4=c(_0xd47fe8(0x200));function _0x20effc(_0x3335b7,_0xbc55d1,_0x3fa0ff){const _0x166bba=_0xd47fe8;c('#desc')[_0x166bba(0x1fb)]=_0x3335b7,c(_0x166bba(0x1f1))[_0x166bba(0x1fb)]=Math[_0x166bba(0x1e7)](_0xbc55d1-0x110)+'°C',c(_0x166bba(0x1ff))['innerText']=_0x3fa0ff+'%';}_0x41ee52(_0xd47fe8(0x1ed)),_0x10a3c4[_0xd47fe8(0x1fe)]('search',()=>{_0x41ee52(_0x10a3c4['value']);});};
+  
+const apikey = "0751b24cdf6d539e6f2bdfc798aa3f0f" 
 
+function c(m){
+    return document.querySelector(m)
+}
+
+window.onload = function(){
+
+
+async function fetchData(city){
+
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+
+const res = await fetch(url);
     
+const data = await res.json();
+    
+    
+
+updateData(data.weather[0].description, data.main.temp, data.main.humidity)
+
+}
+
+const inputRef = c("#search-input") 
+
+function updateData(desc, temp, humidity){
+    c("#desc").innerText = desc;
+    c("#temp").innerText = Math.round(temp - 272) + "°C";
+    c("#humidity").innerText = humidity +"%";
+}
+      
+fetchData("Benin City")   
+        
+inputRef.addEventListener("search", () => {
+   fetchData(inputRef.value)
+})
+}      
+
     const myCity = "Benin City";
     const weatherApp = <section className="grid-container">
         <div id="header" className="header">
