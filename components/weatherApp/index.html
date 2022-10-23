@@ -18,3 +18,102 @@
 
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
 
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+    const apikey = "0751b24cdf6d539e6f2bdfc798aa3f0f" 
+
+function c(m){
+    return document.querySelector(m)
+}
+
+window.onload = function(){
+
+
+async function fetchData(city){
+
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+
+const res = await fetch(url);
+    
+const data = await res.json();
+    
+    
+
+updateData(data.weather[0].description, data.main.temp, data.main.humidity)
+
+}
+
+const inputRef = c("#search-input") 
+
+function updateData(desc, temp, humidity){
+    c("#desc").innerText = desc;
+    c("#temp").innerText = Math.round(temp - 272) + "°C";
+    c("#humidity").innerText = humidity +"%";
+}
+      
+fetchData("Benin City")   
+        
+inputRef.addEventListener("search", () => {
+   fetchData(inputRef.value)
+})
+}    
+
+    
+    const myCity = "Benin City";
+    const weatherApp = <section className="grid-container">
+        <div id="header" className="header">
+            <nav>
+                <ul>
+                    <li>
+                        <span>
+                        &#9928;
+                        </span>
+                        CityWeather
+                    </li>
+                </ul>
+            </nav>
+            <h3>
+            ...Need accurate weather report? It's easy, it's quick, get the current and correct weather report of any city from the search area below.
+            </h3>
+        </div> 
+        
+        <div id="main" className="main">
+            <label>City name: </label>
+            <input type="search" id="search-input" defaultValue={myCity} />
+            
+            <h2>Weather Report</h2>
+            <h4 id="desc">This may take a minute...</h4>
+            <div id="info">
+            <p>Temperature: 
+            <span id="temp">... </span>
+            </p>
+            
+            <p>Humidity: 
+            <span id="humidity">... </span>
+            </p>
+            </div>
+        </div> 
+        
+        <div id="footer" className="footer">
+            <p id="footerTxt">
+                Developed by 
+  <a href="https://eseodiase.website/">
+                <span> Ese Odiase</span>
+                </a>
+            </p>
+        </div> 
+        
+        </section>;
+
+    
+    ReactDOM.render(
+        weatherApp,
+        document.getElementById("root")
+        );
+</script>
+</body>
+</html>
+
