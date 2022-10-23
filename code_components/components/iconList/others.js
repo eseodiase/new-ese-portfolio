@@ -2,6 +2,9 @@ const others =()=>{
     return `<section class="otherPage">
  <div class="html_icons">
     <h4>Others</h4>
+    <p style="text-align: left; margin: 20px">
+    Click on any of the summaries below to view the HTML code and symbols.
+    </p>
         
     <details>
     <summary>Music Symbols</summary>
