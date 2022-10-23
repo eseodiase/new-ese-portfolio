@@ -1,6 +1,6 @@
 import header from "./components/header.js";
 import home from "./components/home.js";
-import {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6} from "./components/portfolio.js";
+import {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6, iframe7, iframe8} from "./components/portfolio.js";
 
 const myApp=()=>{
     document.querySelector(".header").innerHTML = ( header() );
@@ -46,7 +46,7 @@ const myApp=()=>{
  
  // goto portfolioPage 
  const port = document.querySelector(".ul_right").onclick = function (){
-     document.querySelector(".main").innerHTML = ( iframe0() + iframe1() + iframe2() + iframe3() + iframe4() + iframe5() + iframe6() );
+     document.querySelector(".main").innerHTML = ( iframe0() + iframe1() + iframe2() + iframe3() + iframe4() + iframe5() + iframe6() + iframe7() + iframe8() );
      const main = document.querySelector(".main").style.marginTop="80px";
 }
 
