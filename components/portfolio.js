@@ -8,11 +8,9 @@
                 </h3>
                 
                                 
- <span class="backToTop">
- <a href="#">
+ <a href="#" class="backToTop">
  <i class="fa fa-chevron-up"></i>
  </a>
- </span>
 
                 <div class="iframe">
                 <div class="card">
