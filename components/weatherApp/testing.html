@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>weatherApp by Ese Odiase
+</title>
+<!-- metadata -->      
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta content="Ese Odiase" name="author"/>
+
+<!-- favicon -->
+<link rel="icon" type="image/png" sizes="42x42" href="https://ipfs.fleek.co/ipfs/bafybeifi5pftw2obhnb47nu35zmdazjtbu4xup7sjttam4rdxr57f2bcre">
+
+<!-- babel --->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin>  </script>
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+
+
+<style>
+
+body{
+    padding: 0;
+}
+    .item1 { 
+grid-area: header;
+}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header'
+   'main' 
+   'footer';
+  height: 100vh;
+  color:grey;
+  text-align: center;
+}
+
+.grid-container > div {
+  background: #ebffff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: px;
+}
+#header{
+    background: #222;
+    color: #fff;
+    border-radius: 0px 0px 25px 25px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin: 14px;
+    padding: 6px;
+}
+nav ul li{
+    list-style-type: none;
+    font-style: italic;
+}
+nav ul li span{
+    font-style: normal;
+    font-size: 40px;
+}
+input{
+    padding:16px;
+    border: none;
+    border: 0.5px solid grey;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+h3{
+    margin: 40px 20px 0px 20px;
+}
+#info p{
+    text-align: left;
+    margin-left: 20px;
+}
+#footerTxt{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 95vw;
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+    const apikey = "0751b24cdf6d539e6f2bdfc798aa3f0f" 
+
+function c(m){
+    return document.querySelector(m)
+}
+
+window.onload = function(){
+
+
+async function fetchData(city){
+
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+
+const res = await fetch(url);
+    
+const data = await res.json();
+    
+    
+
+updateData(data.weather[0].description, data.main.temp, data.main.humidity)
+
+}
+
+const inputRef = c("#search-input") 
+
+function updateData(desc, temp, humidity){
+    c("#desc").innerText = desc;
+    c("#temp").innerText = Math.round(temp - 272) + "°C";
+    c("#humidity").innerText = humidity +"%";
+}
+      
+fetchData("Benin City")   
+        
+inputRef.addEventListener("search", () => {
+   fetchData(inputRef.value)
+})
+}    
+
+    
+    const myCity = "Benin City";
+    const weatherApp = <section className="grid-container">
+        <div id="header" className="header">
+            <nav>
+                <ul>
+                    <li>
+                        <span>
+                        &#9928;
+                        </span>
+                        CityWeather
+                    </li>
+                </ul>
+            </nav>
+            <h3>
+            ...Need accurate weather report? It's easy, it's quick, get the current and correct weather report of any city from the search area below.
+            </h3>
+        </div> 
+        
+        <div id="main" className="main">
+            <label>City name: </label>
+            <input type="search" id="search-input" defaultValue={myCity} />
+            
+            <h2>Weather Report</h2>
+            <h4 id="desc">This may take a minute...</h4>
+            <div id="info">
+            <p>Temperature: 
+            <span id="temp">... </span>
+            </p>
+            
+            <p>Humidity: 
+            <span id="humidity">... </span>
+            </p>
+            </div>
+        </div> 
+        
+        <div id="footer" className="footer">
+            <p id="footerTxt">
+                Developed by 
+  <a href="https://eseodiase.website/">
+                <span> Ese Odiase</span>
+                </a>
+            </p>
+        </div> 
+        
+        </section>;
+
+    
+    ReactDOM.render(
+        weatherApp,
+        document.getElementById("root")
+        );
+</script>
+</body>
+</html>
