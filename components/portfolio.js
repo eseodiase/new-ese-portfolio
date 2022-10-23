@@ -138,7 +138,7 @@ const iframe7 =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://react-ecmdba.stackblitz.io" target="_blank">
-                <img src="images/ludo.jpg" class="nfts" alt="Symbolic Code"/>
+                <img src="images/ludo.jpg" class="nfts" alt="Ludo Board"/>
                 </a>
                 </div>
                 <p>
@@ -150,5 +150,23 @@ const iframe7 =()=>{
                 </p>
                 </div>`;
 }
+
+const iframe8 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://eseodiase.website/components/weatherApp/index.html" target="_blank">
+                <img src="images/weather.jpg" class="nfts" alt="Weather App"/>
+                </a>
+                </div>
+                <p>
+                Weather App
+                <br/>
+                <span class="languages">
+                HTML/CSS/JSX Script & API
+                </span>
+                </p>
+                </div>`;
+}
+
             
-export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6, iframe7}
+export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6, iframe7, iframe8}
