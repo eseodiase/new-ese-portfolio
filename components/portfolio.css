@@ -70,11 +70,11 @@ a:hover{
     text-align: center;
     z-index: 9999;
 }
-.backToTop a{
+.backToTop{
     text-decoration:none;
     color:#ebffff;
     font-size:20px;
 }
-.backToTop .fa{
+.fa{
     padding: 4px;
 }
