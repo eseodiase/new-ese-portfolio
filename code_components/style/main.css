@@ -279,14 +279,13 @@ img {vertical-align: middle;}
     background: indigo;
     text-align: center;
 }
-.backToTop a{
+.backToTop{
     text-decoration:none;
     color:#ebffff;
     font-size:20px;
-}
-.backToTop .fa{
     padding: 4px;
 }
+
 
 @media(max-width:756px){
 body{
@@ -316,7 +315,7 @@ nav{
 }
 nav ul{
 width:65vw;
-height:100vh; 
+height:105vh; 
 position:fixed;
 margin:0;
 padding:0;
@@ -355,7 +354,7 @@ nav ul li:hover{
     bottom: 0;
     right:0;
     left: 0;
-    padding-bottom:30px;
+    padding-bottom:50px;
     text-align:center;
     font-size: 12px;
 }
