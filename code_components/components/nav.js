@@ -39,7 +39,7 @@ const all = allObjectsUsedOnHeader;
     
 <li class="pal">
 <span class="symb">&#9617</span>
-<a href="#">Pallete</a>
+<a href="#">Palette</a>
 </li>
     
 <li class="icon">
