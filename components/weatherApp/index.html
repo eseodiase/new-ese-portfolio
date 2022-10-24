@@ -27,43 +27,7 @@
 
 <script type="text/babel">
   
-const apikey = "0751b24cdf6d539e6f2bdfc798aa3f0f" 
-
-function c(m){
-    return document.querySelector(m)
-}
-
-window.onload = function(){
-
-
-async function fetchData(city){
-
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
-
-const res = await fetch(url);
-    
-const data = await res.json();
-    
-    
-
-updateData(data.weather[0].description, data.main.temp, data.main.humidity)
-
-}
-
-const inputRef = c("#search-input") 
-
-function updateData(desc, temp, humidity){
-    c("#desc").innerText = desc;
-    c("#temp").innerText = Math.round(temp - 272) + "°C";
-    c("#humidity").innerText = humidity +"%";
-}
-      
-fetchData("Benin City")   
-        
-inputRef.addEventListener("search", () => {
-   fetchData(inputRef.value)
-})
-}      
+const _0x22c29d=_0x3242;function _0x3242(_0x1581c2,_0x2f53e4){const _0x49586b=_0x4958();return _0x3242=function(_0x324287,_0xc2d138){_0x324287=_0x324287-0xcd;let _0x5261f5=_0x49586b[_0x324287];return _0x5261f5;},_0x3242(_0x1581c2,_0x2f53e4);}function _0x4958(){const _0x1e5b01=['6257696Aukyof','#temp','temp','370NYBapT','weather','386wODWzD','Benin\x20City','main','1886590YETaNq','value','5351oBGHzP','innerText','#humidity','querySelector','66675HaNpGa','addEventListener','onload','231aWAZfe','2174235jVwXSe','json','round','#desc','search','humidity','&appid=','594VLWVQK','8488WfnFwu','2261133DAXeSk'];_0x4958=function(){return _0x1e5b01;};return _0x4958();}(function(_0x5ccff5,_0x4a42ed){const _0x474516=_0x3242,_0x4788c7=_0x5ccff5();while(!![]){try{const _0x2cec3c=-parseInt(_0x474516(0xe1))/0x1*(parseInt(_0x474516(0xdc))/0x2)+-parseInt(_0x474516(0xcd))/0x3+parseInt(_0x474516(0xd5))/0x4*(-parseInt(_0x474516(0xda))/0x5)+parseInt(_0x474516(0xd4))/0x6*(-parseInt(_0x474516(0xe5))/0x7)+-parseInt(_0x474516(0xd7))/0x8+parseInt(_0x474516(0xd6))/0x9+-parseInt(_0x474516(0xdf))/0xa*(-parseInt(_0x474516(0xe8))/0xb);if(_0x2cec3c===_0x4a42ed)break;else _0x4788c7['push'](_0x4788c7['shift']());}catch(_0xfee43c){_0x4788c7['push'](_0x4788c7['shift']());}}}(_0x4958,0x8bfbd));const apikey='0751b24cdf6d539e6f2bdfc798aa3f0f';function c(_0x3b6844){const _0x404fce=_0x3242;return document[_0x404fce(0xe4)](_0x3b6844);}window[_0x22c29d(0xe7)]=function(){const _0x19dc24=_0x22c29d;async function _0x485853(_0x12ab13){const _0xe20182=_0x3242,_0x5a5929='https://api.openweathermap.org/data/2.5/weather?q='+_0x12ab13+_0xe20182(0xd3)+apikey,_0x1e1807=await fetch(_0x5a5929),_0x204643=await _0x1e1807[_0xe20182(0xce)]();_0x1566cc(_0x204643[_0xe20182(0xdb)][0x0]['description'],_0x204643[_0xe20182(0xde)][_0xe20182(0xd9)],_0x204643['main'][_0xe20182(0xd2)]);}const _0x1302e4=c('#search-input');function _0x1566cc(_0x6ed337,_0x3875a4,_0x339173){const _0x1d5ff5=_0x3242;c(_0x1d5ff5(0xd0))[_0x1d5ff5(0xe2)]=_0x6ed337,c(_0x1d5ff5(0xd8))[_0x1d5ff5(0xe2)]=Math[_0x1d5ff5(0xcf)](_0x3875a4-0x110)+'°C',c(_0x1d5ff5(0xe3))[_0x1d5ff5(0xe2)]=_0x339173+'%';}_0x485853(_0x19dc24(0xdd)),_0x1302e4[_0x19dc24(0xe6)](_0x19dc24(0xd1),()=>{const _0x36e134=_0x19dc24;_0x485853(_0x1302e4[_0x36e134(0xe0)]);});};      
 
     const myCity = "Benin City";
     const weatherApp = <section className="grid-container">
