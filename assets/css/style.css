@@ -141,14 +141,12 @@ a:hover {
 
 .header .nav-layout h1 a,
 .header .nav-layout h1 a:hover {
-  color: #;
   text-decoration: none;
 }
 
 .header .nav-layout .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2F3A56;
 background: azure;
   color: #;
   line-height: 1;
@@ -162,13 +160,9 @@ background: azure;
 }
 
 .header .nav-layout .social-links a:hover {
-  background: #5E72EB;
-background: azure;
-  color: #;
+  background: azure;
   text-decoration: none;
 }
-
-
 
 /* Back to top styling */
 .back-to-top {
@@ -244,14 +238,12 @@ background: rgba(1, 2, 5, 0.1);
 }
 
 #homeBG p span {
-  color: #;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #5E72EB;
 }
 #homeBG .tik{
     font-weight: bold;
-    color:red;
     color: rgba(10, 6, 0, 0.3);
     font-size: 15.4px;
 }
@@ -317,32 +309,6 @@ background: rgba(1, 2, 5, 0.1);
   margin-top: 30px;
   background: rgba(10, 26, 30, 0.3);
   border-radius: 6px;
-}
-.home-item details{
-    border-radius: 0px 0px 6px 6px;
-}
-.home-item summary, .home-item details{
-    background: red;
-}
-.home-item summary{
-    border: none; /* not working*/
-    font-weight: bold;
-    padding: 8px;
-}
-
-.home-item details p, .obj{
-margin: 0;
-padding: 0;
-font-size: 16px;
-text-align: left;
-margin-left: 18px;
-margin-right: 18px;
-}
-
-.home-item details .obj{
-font-style: normal;
-font-size: 14px;
-font-weight: bold;
 }
 
 .home-item ul li{
@@ -442,7 +408,6 @@ section {
   width: 60px;
   height: 3px;
   background: #;
-  
   border: 1px solid #5E72EB;
   bottom: 0;
   left: 0;
@@ -565,14 +530,12 @@ section {
 
 /* About */
 .about{
-    background: #2F3A56 ;
-background: azure;
+    background: azure;
     color: #f0f0f0_;
 }
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #f0f0f0_;
 }
 
 .about .content ul {
@@ -593,7 +556,6 @@ background: azure;
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #f0f0f0_;
   line-height: 0;
 }
 
@@ -619,8 +581,7 @@ color: #5E72EB;
 }
 
 .courses{
-    background: #0B0742;
-background: azure;
+    background: azure;
     color: #f0f0f0_;
 }
 
@@ -649,27 +610,23 @@ background: azure;
 /* Connect */
 .connect {
   padding-bottom: 130px;
-  background: #2F3A56;
-background: azure;
+  background: azure;
   color: #f0f0f0_;
 }
 
 .connect .info {
   padding: 30px;
-  background: #f0f0f0;
-background: azure;
+  background: azure;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .connect .info i {
   font-size: 20px;
-  color: #5E72EB_;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
-background: azure;
+  background: azure;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -682,14 +639,12 @@ background: azure;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #2F3A56_;
 }
 
 .connect .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c_;
 }
 
 .connect .info .email p {
@@ -704,7 +659,6 @@ background: azure;
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff_;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -717,7 +671,6 @@ background: azure;
 
 .connect .info .social-links a:hover {
   background: #5E72EB;
-  
   color: #fff;
 }
 
