@@ -34,6 +34,7 @@ const navigation =()=>{
       
       <nav id="navbar" class="nav-menu navbar">
         <ul>
+<br/>
           <li class="homeLi"><a href="#" class=""><i class="bi bi-house-fill"></i> <span>Home</span></a></li>
           
           <li class="aboutLi"><a href="#" class=""><i class="bi bi-person-fill"></i> <span>About</span></a></li>
