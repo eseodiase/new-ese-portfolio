@@ -74,7 +74,7 @@ const iframe4 =()=>{
                 <div class="card">
                 
                 <a href="https://eseodiase.website/lyrics/index.html" target="_blank">
-                <img src="https://eseodiase.website/images/lyrics.jpg" class="nfts" alt="Lyrics App Image"/>
+                <img src="https://eseodiase.website/images/Lyrics.jpg" class="nfts" alt="Lyrics App Image"/>
                 </a>
                 </div>
                 <p>
