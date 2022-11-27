@@ -1,1 +1,94 @@
-function _0x8363(){const _0x137c1b=['115YMkiBC','128NnKgmZ','7jhXiKE','84siVhez','27916EwUZmm','133028HDDrLw','35368vgcBOR','1688739jGCukc','610368ONGJXR','<div\x20class=\x22iframe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://ipfs.fleek.co/ipfs/QmVq5Hq2hSqkFRiNCv85sUHUEKby31meSBieFSGi2b2uwM/\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22images/motif.jpg\x22\x20class=\x22nfts\x22\x20alt=\x22Motif\x20Theme\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Portfolio\x20Theme\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22languages\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20HTML/CSS/JavaScript\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','413365dTjSot','<div\x20class=\x22iframe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://ipfs.fleek.co/ipfs/QmcxywYKS7noA16VtTiCjeN6rjSnpatAL2fKoggf2QjmJn/\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22images/jsapp.jpg\x22\x20class=\x22nfts\x22\x20alt=\x22JS\x20App\x20Theme\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Simple\x20Theme\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22languages\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20HTML/CSS/JavaScript\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','102cqxMtV','143PwvYlx','139836AfNSUe','innerHTML','233290vSgIXG','38OGHQkh','34076530HwaHKO','6227820wmMbQW','<div\x20class=\x22iframe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://ipfs.fleek.co/ipfs/QmZ8zfcHS1J5yg9aF1fMK7y4iavGuDwmCgZc8VYwx29YSh/\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22images/Brainie.jpg\x22\x20class=\x22nfts\x22\x20alt=\x22Brainie\x20Theme\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Publisher\x20Template\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22languages\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20HTML/CSS/JavaScript\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','4501704DSuZqW','shift','querySelector','961896SvRDIq','9RyjfOt','push','44472iooXLE'];_0x8363=function(){return _0x137c1b;};return _0x8363();}(function(_0x30339f,_0xb72c6e){const _0x4e4b19=_0x5a9f,_0x130419=_0x30339f();while(!![]){try{const _0x284a6d=parseInt(_0x4e4b19(0x1fc))/0x1*(parseInt(_0x4e4b19(0x1fd))/0x2)+parseInt(_0x4e4b19(0x200))/0x3+parseInt(_0x4e4b19(0x1f2))/0x4+parseInt(_0x4e4b19(0x1f9))/0x5*(parseInt(_0x4e4b19(0x207))/0x6)+parseInt(_0x4e4b19(0x1fb))/0x7*(parseInt(_0x4e4b19(0x1f8))/0x8)+parseInt(_0x4e4b19(0x1f0))/0x9+-parseInt(_0x4e4b19(0x1ef))/0xa;if(_0x284a6d===_0xb72c6e)break;else _0x130419['push'](_0x130419['shift']());}catch(_0x5e66c3){_0x130419['push'](_0x130419['shift']());}}}(_0x8363,0xa7a8f));const allNFTs=()=>{const _0x2e5efe=()=>{const _0x304a81=_0x5a9f;return _0x304a81(0x204);},_0x40adc1=()=>{return'<div\x20class=\x22iframe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://ipfs.fleek.co/ipfs/QmPErgnuojFUMSq9nSzwAHPYpq6oKKBqL2SXKdLXAU5hmo/\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22images/nourishme.jpg\x22\x20class=\x22nfts\x22\x20alt=\x22NourishMe\x20Theme\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20E-commerce\x20Theme\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22languages\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20HTML/CSS/JavaScript\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';},_0x3f6cdd=()=>{const _0x48ae8f=_0x5a9f;return _0x48ae8f(0x202);},_0x57be39=()=>{const _0x476bb0=_0x5a9f;return _0x476bb0(0x1f1);},_0x510490=()=>{return'<div\x20class=\x22iframe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://eseodiase.website/lyrics/index.html\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22images/Lyrics.jpg\x22\x20class=\x22nfts\x22\x20alt=\x22Lyrics\x20App\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Lyrics\x20App\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22languages\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20HTML/CSS/JavaScript\x20&\x20API\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';};(function(_0x4b8f8b,_0x541cc3){const _0x257452=_0x5a9f,_0x4c4d87=_0xf4aaed,_0xe86346=_0x4b8f8b();while(!![]){try{const _0x2d35ac=parseInt(_0x4c4d87(0xf8))/0x1*(-parseInt(_0x4c4d87(0x102))/0x2)+-parseInt(_0x4c4d87(0xf9))/0x3*(parseInt(_0x4c4d87(0xff))/0x4)+-parseInt(_0x4c4d87(0xfd))/0x5+parseInt(_0x4c4d87(0xfe))/0x6+-parseInt(_0x4c4d87(0xf6))/0x7*(parseInt(_0x4c4d87(0xfc))/0x8)+parseInt(_0x4c4d87(0xf7))/0x9*(-parseInt(_0x4c4d87(0x101))/0xa)+-parseInt(_0x4c4d87(0x100))/0xb*(-parseInt(_0x4c4d87(0xfb))/0xc);if(_0x2d35ac===_0x541cc3)break;else _0xe86346[_0x257452(0x1f7)](_0xe86346[_0x257452(0x1f3)]());}catch(_0x9a7eb9){_0xe86346['push'](_0xe86346[_0x257452(0x1f3)]());}}}(_0x21f27d,0x2ecf3));function _0xf4aaed(_0x2d0560,_0x5965de){const _0x1beca1=_0x21f27d();return _0xf4aaed=function(_0x4df2a0,_0x3519e1){_0x4df2a0=_0x4df2a0-0xf5;let _0x2cc454=_0x1beca1[_0x4df2a0];return _0x2cc454;},_0xf4aaed(_0x2d0560,_0x5965de);}const _0x3dc2b3=()=>{const _0x298516=_0xf4aaed;document[_0x298516(0xf5)]('.myIframe')[_0x298516(0xfa)]=_0x2e5efe()+_0x40adc1()+_0x3f6cdd()+_0x57be39()+_0x510490();};function _0x21f27d(){const _0x1d83bb=_0x5a9f,_0xa8e9d=[_0x1d83bb(0x209),_0x1d83bb(0x1ee),_0x1d83bb(0x1f4),_0x1d83bb(0x1fe),_0x1d83bb(0x1f6),'12703ixNmay',_0x1d83bb(0x205),_0x1d83bb(0x208),_0x1d83bb(0x1f5),_0x1d83bb(0x1fa),_0x1d83bb(0x203),_0x1d83bb(0x201),_0x1d83bb(0x1ff),_0x1d83bb(0x206)];return _0x21f27d=function(){return _0xa8e9d;},_0x21f27d();}_0x3dc2b3();};function _0x5a9f(_0x42ecb7,_0x3889d0){const _0x836308=_0x8363();return _0x5a9f=function(_0x5a9f3f,_0x66d720){_0x5a9f3f=_0x5a9f3f-0x1ee;let _0x292c33=_0x836308[_0x5a9f3f];return _0x292c33;},_0x5a9f(_0x42ecb7,_0x3889d0);}export default allNFTs;
+const allNFTs =()=>{
+            const iframe0 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://eseodiase.github.io/SinglePageJSApp/" target="_blank">
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
+                </a>
+                </div>
+                <p>
+                Simple Theme
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
+                </span>
+                </p>
+                </div>`;
+            }
+
+            //
+            const iframe1 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://eseodiase.github.io/NourishMe/" target="_blank">
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
+                </a>
+                </div>
+                <p>
+                E-commerce Theme
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
+                </span>
+                </p>
+                </div>`;
+            }
+            
+            //
+            const iframe2 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://eseodiase.github.io/Motif/" target="_blank">
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/motif.jpg" class="nfts" alt="Motif Theme"/>
+                </a>
+                </div>
+                <p>
+                Portfolio Theme
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
+                </span>
+                </p>
+                </div>`;
+            }
+            
+            const iframe3 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                <a href="https://eseodiase.github.io/Brainie/" target="_blank">
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
+                </a>
+                </div>
+                <p>
+                Publisher Template
+                <br/>
+                <span class="languages">
+                HTML/CSS/JavaScript
+                </span>
+                </p>
+                </div>`;
+            }
+            
+const iframe4 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+                
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/coming.png" class="nfts" alt="Coming Soon"/>
+                
+                </div>
+                <p>
+                Web App
+                <br/>
+                <span class="languages">
+                React JS
+                </span>
+                </p>
+                </div>`;
+}
+            
+            const allFrames =()=>{
+              document.querySelector(".myIframe").innerHTML = ( iframe0 () + iframe1 () + iframe2() + iframe3() + iframe4());
+            }
+            allFrames();
+}
+export default allNFTs;
