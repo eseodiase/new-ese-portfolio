@@ -1,7 +1,7 @@
 /* Ese Odiase Portfolio*/
 
 body {
-margin:60px;
+margin: 60px;
     background: azure;
     color:#050d2e;
     margin:0;
@@ -531,9 +531,8 @@ section {
 
 /* About */
 .about{
-margin-top: -60px;
+padding-top: -80px;
     background: azure;
-    color: #f0f0f0_;
 }
 .about .content h3 {
   font-weight: 700;
