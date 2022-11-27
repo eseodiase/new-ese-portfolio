@@ -4,7 +4,6 @@ import home from "./pages/home.js";
 import about from "./pages/about.js";
 import courses from "./pages/projects.js";
 import enroll from "./pages/contact.js";
-import gallery from "./pages/gallery.js";
 import contact from "./pages/resume.js";
 import skills from "./pages/skills.js";
 
