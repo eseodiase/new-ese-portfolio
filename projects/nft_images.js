@@ -73,14 +73,15 @@ const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 
-                <img src="https://eseodiase.website/lyrics/index.html" class="nfts" alt="Coming Soon"/>
-                
+                <a href="https://eseodiase.website/lyrics/index.html" target="_blank">
+                <img src="https://eseodiase.github.io/new-ese-portfolio/projects/images/lyrics.jpg" class="nfts" alt="Brainie Theme"/>
+                </a>
                 </div>
                 <p>
-                Web App
+                Lyrics App
                 <br/>
                 <span class="languages">
-                React JS
+                HTML/CSS/JavaScript and API
                 </span>
                 </p>
                 </div>`;
