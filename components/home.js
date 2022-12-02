@@ -74,7 +74,7 @@ return `<section class="homePage">
              
             <div class="content2">
    <h3>${homeObj.subTitle}</h3>
-   <iframe src="http://localhost:26543/storage/emulated/0/myWeb/projects/nft_images.html" class="nftAction"></iframe>
+   <iframe src="http://eseodiase.website/projects/nft_images.html" class="nftAction"></iframe>
    <p>« Explore project demos »</p>
             </div>
             
