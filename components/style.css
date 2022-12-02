@@ -290,7 +290,7 @@ nav ul .fa{
     display: inline-block;
 }
 
-nav ul li, .logo{
+nav ul li{
     display:block;
     padding:24px;
     padding-left: 25px;
@@ -322,8 +322,7 @@ outline: none;
     color:#050d2c;  
     background: #f0f0f0;
     padding:100px 14px 30px 14px;
-    top:0;
-    position: absolute;
+    margin-top:0;
     text-decoration: none;
 }
 
@@ -345,7 +344,7 @@ outline: none;
 .dev{
     text-align: center;
     display:block;
-    position:absolute;
+    position: fixed;
     top: 14;
     right:0;
     left: 0;
