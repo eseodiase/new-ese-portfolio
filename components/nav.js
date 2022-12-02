@@ -29,7 +29,7 @@ const all = allObjectsUsedOnHeader;
     
       <div class=${all.mobile}>${all.bar}</div>
     <ul>
-    <span class="logo">
+    <li class="logo">
     
     ${all.l1}
     <span class="dev">
@@ -50,7 +50,7 @@ const all = allObjectsUsedOnHeader;
 <a href="https://wa.me/2348153929729" target="_blank"><i class="fa fa-whatsapp"></i></a>
     </span>
     
-    </span>
+    </li>
     
     
 <li class="home">
