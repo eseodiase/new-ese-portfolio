@@ -13,21 +13,30 @@ font-family: 'Work Sans', sans-serif;
 -ms-user-select: none; /* IE 10 and IE 11 */
 user-select: none; /* Standard syntax */
 }
+
+p{
+    line-height: 22px;
+}
+.iframe p{
+    line-height: 14px;
+}
 .ul_left{
     left: 14px;
+    top: 9px;
     position: absolute;
+    font-size: 30px;
 }
 .ul_right{
     text-align: right;
     color: #e2ffe2;
-    right: 140px;
+    right: 104px;
     position:absolute;
 }
 header{
     top: 0;
     position: fixed;
     margin: 0;
-    z-index: 9999;
+    z-index: 99;
     padding-top:22px;
     padding-bottom: 37px;
     background:#050d2e;
@@ -85,7 +94,7 @@ li{
     position:absolute;
     margin-top:-11px;
     left:4.5px;
-    
+    cursor: pointer;
 }
 .toggleCirle{
     width:15px;
@@ -96,7 +105,7 @@ li{
     position:absolute;
     margin-top:-11px;
     left:28.5px;
-    
+    cursor: pointer;
 }
 .bodyColorChange{
     background: #050d2e;
@@ -111,6 +120,16 @@ li{
     color: #e2ffe2;
 }
 
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    left: 24px;
+    top: 3.5px;
+    position: absolute;
+}
+
 /* home page styling */
     .homePage{
     clear:;
@@ -119,49 +138,65 @@ li{
     width:100vw;
     margin-top:35px;
 }
+.homePage .intro p{
+    margin-top: 30px;
+    font-style: ;
+    text-align: left;
+    margin-left: 24px;
+}
+.homePage .intro h1{
+  font-size: 4rem;
+  font-weight: 1000;
+  line-height: 30px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.homePage .intro h6{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 24px;
+    color: grey;
+    font-size: 19px;
+}
+.social{
+    color: #050d2e;
+}
+.socialChange{
+    color: azure;
+}
+/* updated */
 .topContainer{
     margin-bottom:20px;
     width:100vw;
-    background: url("images/dev.jpg") no-repeat;
-    background-position: center;
-    background-clip: content-box;
-    background-size: cover;
-    color: #e2ffe2;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
 }
 
-.textToggle{
-  color: none;
-}
-
+/**/
 .content1, .content2{
     display:inline-block;
-    padding-top:;
+    position: relative;
     height:50vh;
 } 
+
 .content1{
     width:58vw;
-    
+    padding-left: 0;
+    margin-left: 0;
 }
 
-.subContent1a, .subContent1b{
-    display: inline-block;
-}
 .subContent1a{
-    width:26vw;
-    margin-top: 0;
-}
-.subContent1b{
-    width:30vw;
-    height: 50vh;
+    width:50vw;
 }
 .subContent1a h1{
     font-size:1.2rem;
     margin-left: 24px;
     text-align: left;
+    margin-top: 12px;
     margin-bottom: 0px;
 }
 .subContent1a p{
-    margin-top: 0px;
     text-align: left;
     margin-left: 24px;
 }
@@ -171,6 +206,7 @@ li{
 .subContent1a button{
     border:none;
     width: 240px;
+    font-weight: bold;
     padding: 12px;
     background: #6EC72D;
     color: #e2ffe2;
@@ -187,11 +223,11 @@ li{
     margin-right: 24px;
 }
 .content2 iframe{
-    width:37vw;
+    width:35vw;
     margin:0;
     padding:0;
 }
-.subContent2 h3{
+.Content2 h3{
     padding-top: 25px;
     margin-bottom:0;
 }
@@ -217,23 +253,40 @@ iframe{
 .box1 p{
     text-align: left;
     margin-left: 12px;
+    font-size: 40px;
+    font-weight: 1000px;
+    line-height: 55px;
 }
 .box1 .arrow{
     font-weight: bold;
     font-size: 30px;
 }
-.box3 .fa{
-    padding:6px 10px 6px 10px;
-    color: #6EC72D;
+.box3 .social{
+    display: none;
 }
-.box3 .fa:hover{
-    color: #2F3A56;
+.topContainer .social, .box3 .social, .box3b #social{
+    padding: 8px;
+    width: 32px;
+    text-align: center;
+    font-size: 25px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 8px;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
+    cursor: pointer;
+}
+.topContainer .iconC{
+    margin-top: 100px;
+}
+.topContainer .social:hover, .box3 .social:hover,
+.box3b #social:hover{
+    background: #6EC72D;
+    color: azure;
 }
 
 @media(max-width:756px){
 body{
     width:100vw;
-    background: none;
 }
 header{
     border-bottom: 0.5px solid #6EC72D;
@@ -249,28 +302,46 @@ header{
 
 .myName{
     padding-left: 12px;
+    font-weight: 1000;
 }
 
-.ul_right{
-    right: 104px;
+.avatar img{
+    left: 60px;
 }
 
 .homePage{
         text-align: center;
         position:fixed;
         margin-top:60px; /* update */
-        
-background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") no-repeat;
-    background-size: 50% ;
-    background-position: center;
+}
+
+.homePage .intro p,
+.homePage .intro h1,
+.homePage .intro h6{
+    margin-left: 12px;
+    text-align: left;
+}
+
+.homePage .intro h1{
+     font-size: 40.5px;
+     margin-bottom: 3px;
+ }
+ 
+.homePage .intro h6{
+     font-size: 12px;
+     margin-top: 2px;
+ }
+
+.homePage .intro p{
+    margin-bottom: -10px;
 }
 
 .topContainer{
-    background: none;
-    color: #050d2e;
+    box-shadow: none; 
 }
-.textToggle{
-  color: #e2ffe2;
+
+.topContainer .social{
+    display:none;
 }
 
 .content1,.content2{
@@ -285,10 +356,11 @@ background: url("https://eseodiase.github.io/new-ese-portfolio/images/me.png") n
 }
 .content2{
 height:54vh;
+top: 36vh;
 bottom: 0;
 margin-bottom: 0px;
 margin: 0;
-position: fixed;
+position: absolute;
 background:-webkit-linear-gradient(top, transparent, #26292e);
 background:-moz-linear-gradient(top, transparent, #26292e);
 border-radius:30px 30px 0px 0px;
@@ -303,6 +375,7 @@ border-radius:30px 30px 0px 0px;
     margin-left:10px;
     margin-right: 10px;
 }
+
 .subContent1a .more, .subContent1a .less{
     display: inline-block;
     padding-left: px;
@@ -317,8 +390,8 @@ border-radius:30px 30px 0px 0px;
     margin-left: 10px;
 }
 .subContent1a button{
-    margin-top: 34px;
-    margin-bottom: 6px;
+    margin-top: -5px;
+    margin-bottom: 3px;
 }
 .subContent1b{
     display: none;
@@ -326,7 +399,7 @@ border-radius:30px 30px 0px 0px;
 .content2 h3{
 display: none;
 }
-.subContent2 p{
+.Content2 p{
     display: none;
 }
 .box1, .box2, .box3{
@@ -334,10 +407,19 @@ display: none;
 }
 .box3{
     width: 100vw;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 30px;
+    position: absolute;
+    top: 55vh;
     text-align: center;
+}
+.box3 .social{
+    display: inline-block;
+}
+.box3b{
+    display: none;
+}
+
+#shorts{
+    margin-top: 0;
 }
 .content2 iframe{
     width:94.5vw;
