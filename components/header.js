@@ -1,14 +1,7 @@
 const header =()=>{
     return `<div class="header">
-
-    <ul class="myName">
-    <li class="ul_left"><i class="fa fa-home"></i>
-    Ese Odiase
-    </li>
     
-    <li class="ul_right">
-    <a href="#">Portfolio</a>
-    </li>
+    <ul class="myName">
     </ul>
     
     <div class="darkmode">
@@ -17,6 +10,15 @@ const header =()=>{
     </span>
     </div> 
     
-    </div>`;
+    </div>
+    
+    <span class="avatar">
+    <img src="https://eseodiase.website/images/Ese_avatar.png" alt="Ese Odiase" />
+    </span>
+    
+    
+ <a href="#" class="backToTop">
+ <i class="fa fa-chevron-up"></i>
+ </a>`;
 }
 export default header;

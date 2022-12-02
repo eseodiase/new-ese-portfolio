@@ -30,6 +30,11 @@ display:inline-block;
 border-radius:5px;
 font-size: 12px;
 }
+
+.iframe p{
+    line-height: 14px;
+}
+
 .card{
 width:280px;
 height:250px;

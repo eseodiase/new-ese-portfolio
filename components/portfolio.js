@@ -1,28 +1,25 @@
-
-            const iframe0 =()=>{
+const iframe0 =()=>{
                 return`
-                <h3 class="port">
-                My portfolio consist of front-end 
-                projects created with HTML, CSS, 
-                JavaScript, React and API.
-                </h3>
-                
+          <div class="port">
+          <div class="subTitle">
+          <h2>Projects</h2>
+                <p>
+                Explore a few of the websites I've had the privilege of creating.
+                </p>
+          </div> 
+          </div>
                                 
- <a href="#" class="backToTop">
- <i class="fa fa-chevron-up"></i>
- </a>
-
                 <div class="iframe">
                 <div class="card">
-                <a href="https://js-app.on.fleek.co/" target="_blank">
-                <img src="images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
+<a href="https://js-app.on.fleek.co/" target="_blank">
+ <img src="https://eseodiase.website/images/jsapp.jpg" class="nfts" alt="JS App Theme"/>
                 </a>
                 </div>
                 <p>
                 Simple Theme
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
@@ -32,15 +29,15 @@
             const iframe1 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://nourishme.on.fleek.co/" target="_blank">
-                <img src="images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
+<a href="https://nourishme.on.fleek.co/" target="_blank">
+  <img src="https://eseodiase.website/images/nourishme.jpg" class="nfts" alt="NourishMe Theme"/>
                 </a>
                 </div>
                 <p>
                 E-commerce Theme
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
@@ -50,15 +47,15 @@
             const iframe2 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://motif.on.fleek.co/" target="_blank">
-                <img src="images/motif.jpg" class="nfts" alt="Motif Theme"/>
+<a href="https://motif.on.fleek.co/" target="_blank">
+                <img src="https://eseodiase.website/images/motif.jpg" class="nfts" alt="Motif Theme"/>
                 </a>
                 </div>
                 <p>
                 Portfolio Theme
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
@@ -67,15 +64,15 @@
             const iframe3 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://brainie.on.fleek.co/" target="_blank">
-                <img src="images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
+<a href="https://brainie.on.fleek.co/" target="_blank">
+ <img src="https://eseodiase.website/images/Brainie.jpg" class="nfts" alt="Brainie Theme"/>
                 </a>
                 </div>
                 <p>
                 Publisher Template
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
@@ -85,14 +82,14 @@ const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
                 <a href="https://eseodiase.website/lyrics/index.html" target="_blank">
-                <img src="images/Lyrics.jpg" class="nfts" alt="Lyrics App"/>
+  <img src="https://eseodiase.website/images/Lyrics.jpg" class="nfts" alt="Lyrics App"/>
                 </a>
                 </div>
                 <p>
                 Lyrics App
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript & API
+                HTML/CSS/JavaScript(ES6+) & API
                 </span>
                 </p>
                 </div>`;
@@ -101,15 +98,15 @@ const iframe4 =()=>{
 const iframe5 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.website/code_components/chess/index.html" target="_blank">
-                <img src="images/chess.jpg" class="nfts" alt="Chessboard"/>
+<a href="https://eseodiase.website/code_components/chess/index.html" target="_blank">
+  <img src="https://eseodiase.website/images/chess.jpg" class="nfts" alt="Chessboard App"/>
                 </a>
                 </div>
                 <p>
                 Chessboard
                 <br/>
                 <span class="languages">
-                HTML/CSS(Grid)
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
@@ -118,53 +115,52 @@ const iframe5 =()=>{
 const iframe6 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://eseodiase.website/code.html" target="_blank">
-                <img src="images/code.jpg" class="nfts" alt="Symbolic Code"/>
+<a href="https://eseodiase.website/code.html" target="_blank">
+  <img src="https://eseodiase.website/images/code.jpg" class="nfts" alt="Symbolic Code App"/>
                 </a>
                 </div>
                 <p>
                 Symbolic Code
                 <br/>
                 <span class="languages">
-                HTML/CSS/JavaScript
+                HTML/CSS/JavaScript(ES6+)
                 </span>
                 </p>
                 </div>`;
-}
-
-const iframe7 =()=>{
+                }
+                
+                const iframe7 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <a href="https://react-ecmdba.stackblitz.io" target="_blank">
-                <img src="images/ludo.jpg" class="nfts" alt="Ludo Board"/>
-                </a>
-                </div>
-                <p>
-                Ludo Board
-                <br/>
-                <span class="languages">
-                CSS(Grid)/ReactJS
-                </span>
-                </p>
-                </div>`;
-}
-
-const iframe8 =()=>{
-                return`<div class="iframe">
-                <div class="card">
-                <a href="https://eseodiase.website/components/weatherApp/index.html" target="_blank">
-                <img src="images/weather.jpg" class="nfts" alt="Weather App"/>
+<a href="https://eseodiase.website/components/weatherApp/index.html" target="_blank">
+                <img src="https://eseodiase.website/images/weather.jpg" class="nfts" alt="Weather App"/>
                 </a>
                 </div>
                 <p>
                 Weather App
                 <br/>
                 <span class="languages">
-                HTML/CSS/JSX Script & API
+                HTML/CSS Grid/JSX Script and API
+                </span>
+                </p>
+                </div>`;
+            }
+            
+const iframe8 =()=>{
+                return`<div class="iframe">
+                <div class="card">
+<a href="https://react-ecmdba.stackblitz.io/" target="_blank">
+  <img src="https://eseodiase.website/images/ludo.jpg" class="nfts" alt="Ludo App"/>
+                </a>
+                </div>
+                <p>
+                Ludo Board
+                <br/>
+                <span class="languages">
+                HTML/CSS Grid/ReactJS
                 </span>
                 </p>
                 </div>`;
 }
-
             
 export {iframe0, iframe1, iframe2, iframe3, iframe4, iframe5, iframe6, iframe7, iframe8}
