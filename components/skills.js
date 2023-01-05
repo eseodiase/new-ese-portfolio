@@ -31,8 +31,9 @@ return`<section id="skills">
          <!-- paragraph 3 -->
  <div class="col-lg-4" data-aos="fade-up" style="text-align:center">
         <i id="tools" class="fa fa">{}</i>
-           <h3>Framework</h3>
+           <h3>Framework & Library</h3>
           <p>Bootstrap</p>
+          <p>jQuery</p>
           <p>ReactJs</p>
           </div>
           <!-- paragraph 3 end -->
