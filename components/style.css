@@ -319,17 +319,17 @@ outline: none;
 
 .logo{
     text-align: center;
-    color:#050d2c;  
+    color: #050d2c;  
     background: #f0f0f0;
-    padding:50px 14px 30px 14px;
-    margin-top:0;
+    padding: 40px 14px 20px 14px;
+    margin-top: 0;
     text-decoration: none;
 }
 
 .logo a{
     padding: 12px;
     border-radius: 50%;
-    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.3); 
+    box-shadow: 1.5px 8px 8px 0.1px rgba(0,0,0,0.3); 
     color: #050d2e;
 }
 
