@@ -10,8 +10,12 @@ const resume =()=>{
 
         <div class="">
           <p><span style="font-weight:bold; font-size:19px;">Summary:</span>
-          highly self-moltivated web developer with over three years experience of HTML and CSS, less than a year experience of JavaScript and ReactJS, and proven abilities of developing multi-page websites with ECMAScript, specifically using module script. Profecient in using CSS Grid for responsive layout. Built web apps with Axios and Fetch API. Have knowledge of GitHub, StackBlitz, Fleek, and I'm in the process of learning Angular and NestJS.
-          </p>
+          highly self-moltivated web developer with over three years experience of HTML and CSS, one year
+experience of JavaScript, jQuery and ReactJS, and proven abilities of developing multi-page websites with
+ECMAScript, specifically using module script. Profecient in using CSS Grid for responsive layout. Built web
+apps with third-party APIs. Have knowledge of GitHub, StackBlitz, Fleek, and I'm in the process of learning
+Angular and NestJS.   
+        </p>
         </div>
         
 
@@ -235,7 +239,7 @@ Other features I included on this application are:
                 <p>Here are my web development and other skills.
                 
 <h4 style="color: #6EC72D;">Web Technogies/Tools</h4>
-                <p>HTML, CSS, JavaScript (ES6+), Bootstrap, ReactJS, MySQL, WordPress, GitHub, NFT, NPM, and SEO.</p>
+                <p>HTML, CSS, JavaScript (ES6+), Bootstrap, jQuery, ReactJS, MySQL, WordPress, GitHub, NFT, NPM, and SEO.</p>
                 
 <h4 style="color: #6EC72D;">Video Editing</h4>
                 <p>
